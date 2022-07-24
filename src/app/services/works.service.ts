@@ -102,7 +102,7 @@ export class WorksService {
     },
     {
       title: 'Title3',
-      subtitle: 'subtitle3',
+      subtitle: 'subtitle3 ',
       imagePath:
         'https://n74df333l0p11ftok3gpzqtz-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/big.1480077030.087542365418.jpg',
       paragraphs: [
