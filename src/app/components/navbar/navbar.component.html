@@ -1,0 +1,71 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar1 transparent">
+  <div class="container-fluid">
+    <a class="navbar-brand pb-0" routerLink="/home"><h4>BENCE MEZEI</h4></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse links-container"
+      id="navbarSupportedContent"
+    >
+      <div class="">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item text-center">
+            <a routerLink="/about" class="nav-link active" aria-current="page"
+              >About</a
+            >
+          </li>
+          <li class="nav-item dropdown text-center">
+            <a
+              class="nav-link active dropdown-toggle"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Works
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <div>
+                  <a
+                    routerLink="/works-personal"
+                    class="dropdown-item text-center"
+                    >Personal</a
+                  ><a
+                    routerLink="/works-guests"
+                    class="dropdown-item text-center"
+                    >Collaborations</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item text-center">
+            <a
+              routerLink="/calendar"
+              class="nav-link active"
+              aria-current="page"
+              >Calendar</a
+            >
+          </li>
+
+          <li class="nav-item text-center">
+            <a routerLink="/contact" class="nav-link active" aria-current="page"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

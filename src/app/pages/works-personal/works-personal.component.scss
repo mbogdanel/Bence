@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1024px) {
+  div.container {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .work-card {
+    padding: 0;
+  }
+}
+
+.work-image {
+  //   max-height: 70vh;
+  //   aspect-ratio: 6/12;
+}

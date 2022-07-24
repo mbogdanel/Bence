@@ -1,0 +1,14 @@
+.image-div {
+  aspect-ratio: 4/3;
+}
+
+@media only screen and (max-width: 1024px) {
+  div.container {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .about-card {
+    padding: 0;
+  }
+}
