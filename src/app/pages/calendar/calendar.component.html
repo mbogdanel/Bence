@@ -1,1 +1,19 @@
-<p>calendar works!</p>
+<div class="container mt-5 w-50">
+  <div *ngFor="let year of calendar">
+    <hr class="hr-year" />
+    <h3>
+      <strong>{{ year.year }}</strong>
+    </h3>
+    <div *ngFor="let event of year.events" class="row">
+      <div class="d-flex flex-row">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">{{ event.play }}</div>
+          {{ event.venue }}
+        </div>
+        <div class="mt-2">{{ event.date }}</div>
+      </div>
+
+      <hr />
+    </div>
+  </div>
+</div>
