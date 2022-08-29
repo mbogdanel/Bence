@@ -1,23 +1,16 @@
-.image-div {
-  aspect-ratio: 4/3;
-}
-
 @media only screen and (max-width: 1024px) {
   div.container {
     width: 100% !important;
   }
 }
 @media only screen and (max-width: 420px) {
-  .about-card {
+  .work-card {
     padding: 0;
-  }
-  img {
-    padding-left: 0 !important;
   }
 }
 
 hr {
-  border: 10px solid #b3b3b3;
+  border: 10px solid #b30000;
   border-radius: 5px;
 }
 

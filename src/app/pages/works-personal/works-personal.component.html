@@ -1,34 +1,19 @@
-<div class="container mt-5 w-50">
+<div class="container mt-5 w-75">
   <div class="row">
-    <h2>Works</h2>
+    <h2 class="d-flex justify-content-center">Works</h2>
   </div>
-  <div *ngFor="let work of works" class="row work-card mb-5">
-    <hr />
-
-    <div class="card mt-3">
-      <img
-        src="{{ work.imagePath }}"
-        class="card-img-top img-fluid mt-2 work-image"
-        alt="..."
-      />
-      <div class="card-body">
-        <h4 class="card-title">
-          <strong>{{ work.title }}</strong>
-        </h4>
-        <h5 class="card-title">
-          <strong>{{ work.subtitle }}</strong>
-        </h5>
-        <p class="card-text" *ngFor="let paragraph of work.paragraphs">
-          {{ paragraph }}
-        </p>
-        <h5 class="card-title"><strong>Credits</strong></h5>
-
-        <ul class="list-group list-group-flush">
-          <li *ngFor="let credit of work.credits" class="list-group-item">
-            {{ credit }}
-          </li>
-        </ul>
-      </div>
-    </div>
+  <div class="container-image">
+    <!-- heading text -->
+    <ul class="image-gallery">
+      <li *ngFor="let work of works">
+        <a [routerLink]="['/works-personal', work.id]">
+          <img src="{{ work.imagePath }}" alt="" />
+          <div class="overlay">
+            <span>{{ work.title }}</span>
+          </div>
+        </a>
+      </li>
+      <!-- other items here -->
+    </ul>
   </div>
 </div>

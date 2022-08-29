@@ -7,4 +7,19 @@ li {
     display: flex;
     justify-content: center;
   }
+  .nav-links {
+    padding-right: 135px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  a.navbar-brand {
+    margin-left: 10px !important;
+  }
+}
+
+.name {
+  padding: 5px;
+  border-style: outset !important;
+  border-color: rgb(214, 211, 211);
 }

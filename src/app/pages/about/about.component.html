@@ -1,37 +1,19 @@
-<div class="container mt-5 w-50">
+<div class="container mt-5 w-75">
   <div class="row">
-    <h2>About</h2>
+    <h2>Bence Mezei</h2>
+    <h5>dancer, actor, director</h5>
   </div>
-  <hr />
+  <!-- <hr /> -->
 
-  <div class="card about-card">
-    <img
-      class="p-3"
-      src="https://n74df333l0p11ftok3gpzqtz-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/bence-mezei-300x225.jpg"
-      alt="image"
-    />
+  <div class="card about-card border-0">
     <div class="card-body">
-      <p>
-        Bence is a Hungarian freelance dancer, performer and theater maker based
-        between Budapest, Hungary and Ljubljana, Slovenia. He is an actor with
-        Nature Theater of Oklahoma performing in Karoline und Kasimir: Noli Me
-        Tangere, Burt Turrido. An Opera, No President. A Story Ballet of
-        Enlightenment in Two Immoral Acts and Pursuit Happiness (2016-2022). He
-        performed, collaborated and danced for various choreographers, theater
-        and dance companies over the past decade, including Lionel Hoche, Éva
-        Duda, Adrienn Hód, Csaba Molnár, EnKnapGroup, Club Guy and Roni, SNG
-        Nova Gorica and Theater Glej among others.
-      </p>
-      <p>
-        Bence makes his own works since 2016, creating performances situated
-        between dance and theater: first a solo, UTOPIANOW (in a search for a
-        beautiful life), then in collaboration with other artists, Odyssey
-        Variations Episode One: Athena’s Play, Diary Monologues in 4 Acts,
-        Dracula and The Girl and The Gloomy Forest (An Epic Solo Horror Musical
-        In Three Acts) and Bűnbeesés ’22 (A Sci-fi Fairy Tale in Two Parts)
-        (2016-2022). He taught at the Hungarian Theater’s Acting Department and
-        shares a Zupancic Award with EnKnapGroup for outstanding work and impact
-        on the Slovenian dance scene.
+      <img
+        class="p-3"
+        src="https://n74df333l0p11ftok3gpzqtz-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/bence-mezei-300x225.jpg"
+        alt="image"
+      />
+      <p *ngFor="let paragraph of paragraphs">
+        {{ paragraph }}
       </p>
     </div>
   </div>

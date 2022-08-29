@@ -4,16 +4,20 @@ import { AboutComponent } from './pages/about/about.component';
 import { CalendarComponent } from './pages/calendar/calendar.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
+import { WorkPersonalComponent } from './pages/work-personal/work-personal.component';
 import { WorksGuestsComponent } from './pages/works-guests/works-guests.component';
 import { WorksPersonalComponent } from './pages/works-personal/works-personal.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'calendar', component: CalendarComponent },
   { path: 'works-personal', component: WorksPersonalComponent },
+  { path: 'works-personal/:id', component: WorkPersonalComponent },
   { path: 'works-guests', component: WorksGuestsComponent },
   { path: 'contact', component: ContactComponent },
+  { path: '**', redirectTo: 'HomeComponent' },
 ];
 
 @NgModule({

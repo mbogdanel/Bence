@@ -13,6 +13,8 @@ import { WorksPersonalComponent } from './pages/works-personal/works-personal.co
 import { WorksGuestsComponent } from './pages/works-guests/works-guests.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
+import { WorkPersonalComponent } from './pages/work-personal/work-personal.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -25,14 +27,11 @@ import { HomeComponent } from './pages/home/home.component';
     WorksPersonalComponent,
     WorksGuestsComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    WorkPersonalComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, FontAwesomeModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

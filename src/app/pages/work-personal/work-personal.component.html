@@ -1,0 +1,33 @@
+<div class="container mt-5 w-75">
+  <div class="row">
+    <h2 class="card-title">
+      <strong>{{ work.title }}</strong>
+    </h2>
+    <h5 class="card-title">
+      <strong>{{ work.subtitle }}</strong>
+    </h5>
+  </div>
+  <div class="row work-card mb-5">
+    <!-- <hr /> -->
+
+    <div class="card mt-3 border-0">
+      <img
+        src="{{ work.imagePath }}"
+        class="card-img-top img-fluid mt-2 work-image"
+        alt="..."
+      />
+      <div class="card-body">
+        <p class="card-text" *ngFor="let paragraph of work.paragraphs">
+          {{ paragraph }}
+        </p>
+        <h5 class="card-title"><strong>Credits</strong></h5>
+
+        <ul class="list-group list-group-flush">
+          <li *ngFor="let credit of work.credits" class="list-group-item">
+            {{ credit }}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
