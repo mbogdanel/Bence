@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
+
 import {
   faTwitter,
   faFacebookF,
@@ -17,7 +19,23 @@ export class FooterComponent implements OnInit {
   faTwitter = faTwitter;
   faHeart = faHeart;
 
-  constructor() {}
+  name = 'Get Current Url Route Demo';
+  currentRoute: string;
+  home = false;
 
-  ngOnInit(): void {}
+  constructor(router: Router) {
+    router.events.subscribe((url: any) => {
+      if (url.url) {
+        this.currentRoute = url.url;
+        if (this.currentRoute === '/home') {
+          this.home = true;
+        } else this.home = false;
+      }
+      console.log(this.currentRoute);
+    });
+  }
+
+  ngOnInit(): void {
+    // console.log(this.router.url);
+  }
 }

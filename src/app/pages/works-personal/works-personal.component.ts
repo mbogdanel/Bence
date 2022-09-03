@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { WorksService } from 'src/app/services/works.service';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-works-personal',
@@ -9,10 +9,10 @@ import { WorksService } from 'src/app/services/works.service';
 export class WorksPersonalComponent implements OnInit {
   works: any;
 
-  constructor(private worksService: WorksService) {}
+  constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
-    this.works = this.worksService.works;
+    this.works = this.dataService.works;
     console.log(this.works);
   }
 }

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { WorksService } from 'src/app/services/works.service';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-work-personal',
@@ -14,13 +14,13 @@ export class WorkPersonalComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private worksService: WorksService
+    private dataService: DataService
   ) {}
 
   ngOnInit(): void {
     this.id = this.route.snapshot.paramMap.get('id');
     console.log(this.id);
-    this.works = this.worksService.works;
+    this.works = this.dataService.works;
     console.log(this.works);
 
     this.work = this.works.filter((work: any) => {

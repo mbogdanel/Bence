@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { WorksService } from 'src/app/services/works.service';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-about',
@@ -9,10 +9,10 @@ import { WorksService } from 'src/app/services/works.service';
 export class AboutComponent implements OnInit {
   paragraphs: any;
 
-  constructor(private worksService: WorksService) {}
+  constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
-    this.paragraphs = this.worksService.aboutPage.paragraphs;
+    this.paragraphs = this.dataService.aboutPage.paragraphs;
     console.log(this.paragraphs);
   }
 }

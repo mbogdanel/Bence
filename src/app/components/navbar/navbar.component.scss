@@ -20,6 +20,32 @@ li {
 
 .name {
   padding: 5px;
-  border-style: outset !important;
-  border-color: rgb(214, 211, 211);
+  border: 1px solid black;
+}
+
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  background-color: transparent !important;
+  border: none;
+}
+
+.navbar-toggler:hover,
+.dropdown-item:hover,
+a:hover {
+  opacity: 0.5;
+  background-color: transparent !important;
+}
+
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+}
+
+nav {
+  background-color: white !important;
+  border-bottom: 2px solid yellow;
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { WorksService } from 'src/app/services/works.service';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-calendar',
@@ -9,9 +9,9 @@ import { WorksService } from 'src/app/services/works.service';
 export class CalendarComponent implements OnInit {
   calendar: any;
 
-  constructor(private worksService: WorksService) {}
+  constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
-    this.calendar = this.worksService.calendar;
+    this.calendar = this.dataService.calendar;
   }
 }
