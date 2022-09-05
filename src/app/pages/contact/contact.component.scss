@@ -76,3 +76,18 @@ a:hover {
 fa-icon {
   color: white;
 }
+
+.contact {
+  min-height: 300px;
+  border: none;
+}
+
+.card {
+  border: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  div.container {
+    width: 100% !important;
+  }
+}

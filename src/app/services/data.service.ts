@@ -16,52 +16,131 @@ export class DataService {
       year: 2022,
       events: [
         {
-          play: 'Burrito',
-          venue: 'National Theater, Prague',
-          date: '15 - 18 December 2022',
+          play: 'Nature Theater of Oklahoma - Burt Turrido. An Opera',
+          venue: 'Espoo City Theatre , ESPOO (FI)',
+          date: '11 - 13 November 2022',
         },
         {
-          play: 'Burrito2',
-          venue: 'National Theater, Prague',
-          date: '15 - 18 December 2022',
+          play: 'Nature Theater of Oklahoma - Burt Turrido. An Opera',
+          venue: 'HAU, BERLIN (DE)',
+          date: '3 - 5 November 2022',
         },
         {
-          play: 'Burrito3',
-          venue: 'National Theater, Prague',
-          date: '15 - 18 December 2022',
+          play: 'Nature Theater of Oklahoma - Burt Turrido. An Opera',
+          venue: 'Kampnagel, HAMBURG (DE)',
+          date: '27 - 29 October 2022',
         },
         {
-          play: 'Burrito4',
-          venue: 'National Theater, Prague',
-          date: '15 - 18 December 2022',
+          play: 'Nature Theater of Oklahoma - Burt Turrido. An Opera',
+          venue: 'Schauspiel Frankfurt, FRANKFURT (DE)',
+          date: '21 - 22 October 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Burt Turrido. An Opera',
+          venue: 'Schauspiel Frankfurt, FRANKFURT (DE)',
+          date: '19 October 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Burt Turrido. An Opera',
+          venue: 'Schauspiel Frankfurt, FRANKFURT (DE)',
+          date: '14 - 16 October 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Burt Turrido. An Opera',
+          venue: 'Schauspiel Frankfurt, FRANKFURT (DE)',
+          date: '12 October 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Burt Turrido. An Opera',
+          venue: 'Schauspiel Frankfurt, FRANKFURT (DE)',
+          date: '8 - 10 October 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Burt Turrido. An Opera',
+          venue: 'Hellenic Festival, ATHENS (GR))',
+          date: '15 - 16 June 2022',
+        },
+        {
+          play: 'Bence Mezei - BŰNBEESÉS ’22’',
+          venue: 'Under500 Festival , BUDAPEST (HU)',
+          date: '18 June 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Burt Turrido. An Opera',
+          venue: 'Arctic Arts Festival, HARSTAD (NO)',
+          date: '29 June 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Kasimir und Karoline - Noli Me Tangere',
+          venue: 'Volkstheater Wien, Vienna (AT)',
+          date: '29 May 2022',
+        },
+        {
+          play: 'Bence Mezei - BŰNBEESÉS ’22',
+          venue: 'Óvóhely Kultúrbunker, BUDAPEST (HU)',
+          date: '25 May 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Kasimir und Karoline - Noli Me Tangere',
+          venue: 'Volkstheater Wien, Vienna (AT)',
+          date: '20 May 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Kasimir und Karoline - Noli Me Tangere',
+          venue: 'Volkstheater Wien, Vienna (AT)',
+          date: '7 May 2022',
+        },
+        {
+          play: 'Bence Mezei - DRACULA AND THE GIRL AND THE GLOOMY FOREST (Premier)',
+          venue: 'Gledalisce Glej, Ljubljana (SI)',
+          date: '5-6 May 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Kasimir und Karoline - Noli Me Tangere',
+          venue: 'Volkstheater Wien, Vienna (AT)',
+          date: '23 April 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Kasimir und Karoline - Noli Me Tangere',
+          venue: 'Volkstheater Wien, Vienna (AT)',
+          date: '14 April 2022',
+        },
+        {
+          play: 'Bence Mezei - BŰNBEESÉS ’22 (Premier)',
+          venue: 'Óvóhely Kultúrbunker, BUDAPEST (HU)',
+          date: '6-7 April 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Kasimir und Karoline - Noli Me Tangere',
+          venue: 'Volkstheater Wien, Vienna (AT)',
+          date: '3 April 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Kasimir und Karoline - Noli Me Tangere',
+          venue: 'Volkstheater Wien, Vienna (AT)',
+          date: '23 March 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Kasimir und Karoline - Noli Me Tangere',
+          venue: 'Volkstheater Wien, Vienna (AT)',
+          date: '3 March 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Kasimir und Karoline - Noli Me Tangere',
+          venue: 'Volkstheater Wien, Vienna (AT)',
+          date: '1 March 2022',
+        },
+        {
+          play: 'Nature Theater of Oklahoma - Kasimir und Karoline - Noli Me Tangere (Premier)',
+          venue: 'Volkstheater Wien, Vienna (AT)',
+          date: '25 February 2022',
         },
       ],
     },
-    {
-      year: 2021,
-      events: [
-        {
-          play: 'Ciacito',
-          venue: 'National Theater, Budapest',
-          date: '15 - 18 December 2021',
-        },
-        {
-          play: 'Ciacito2',
-          venue: 'National Theater, Budapest',
-          date: '15 - 18 December 2021',
-        },
-        {
-          play: 'Ciacito3',
-          venue: 'National Theater, Budapest',
-          date: '15 - 18 December 2021',
-        },
-        {
-          play: 'Ciacito4',
-          venue: 'National Theater, Budapest',
-          date: '15 - 18 December 2021',
-        },
-      ],
-    },
+    // {
+    //   year: 2021,
+    //   events: [],
+    // },
   ];
 
   works = [
@@ -69,8 +148,7 @@ export class DataService {
       id: 1,
       title: 'DRACULA AND THE GIRL AND THE GLOOMY FOREST ',
       subtitle: 'An Epic Solo Horror Musical In Three Acts ',
-      imagePath:
-        'https://n74df333l0p11ftok3gpzqtz-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/big.1480077030.087542365418.jpg',
+      imagePath: 'assets/pictures/dracula_41.jpg',
       paragraphs: [
         'DRACULA AND THE GIRL AND THE GLOOMY FOREST is an ambitious solo performance undertaking on an epic vampire story.  Drawing the line somewhere between the trivial and genuine, amateur and professional, building its own specific language with the restrictions of the narrative form, horror genre, fairy tale and musical theater, the performance tells the story of the lonesome Dracula.',
         'Dracula is a bloodthirsty vampire who, as a wannabe playwright, sets on a journey to pitch his script and find friends in the Town’s Theater. As his path leads through The Gloomy Forest, where The Headless Ghost, — an actor who took his own life — haunts, he meets the disillusioned Girl, an ex-dancer, who searches for her lost identity while working at a film production. Here begins a tale of their quest for artistic function, happiness and love, their struggles with work and life, their encounter and ultimate death. ',
