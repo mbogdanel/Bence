@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'calendar', component: CalendarComponent },
   { path: 'works-personal', component: WorksPersonalComponent },
-  { path: 'works-personal/:id', component: WorkPersonalComponent },
+  { path: 'works-personal/:id/:label', component: WorkPersonalComponent },
   { path: 'works-guests', component: WorksGuestsComponent },
   { path: 'contact', component: ContactComponent },
   { path: '**', redirectTo: 'HomeComponent' },

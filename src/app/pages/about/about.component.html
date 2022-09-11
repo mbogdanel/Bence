@@ -1,19 +1,23 @@
-<div class="container mt-5 w-75">
+<div class="container mt-5 w-50">
   <div class="row">
-    <h2>Bence Mezei</h2>
+    <h2 class="card-title ms-3">
+      <strong>Bence Mezei</strong>
+    </h2>
   </div>
-  <!-- <hr /> -->
-
-  <div class="card about-card border-0">
-    <div class="card-body">
+  <div class="row work-card mb-5">
+    <div class="card mt-3 border-0">
       <img
         class="p-3 card-img-top"
         src="assets/pictures/about.jpg"
         alt="image"
       />
-      <p *ngFor="let paragraph of paragraphs">
-        {{ paragraph }}
-      </p>
+      <div class="card-body">
+        <p *ngFor="let paragraph of paragraphs">
+          {{ paragraph }}
+        </p>
+      </div>
     </div>
   </div>
 </div>
+
+<app-footer></app-footer>

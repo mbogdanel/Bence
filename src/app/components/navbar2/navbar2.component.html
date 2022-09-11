@@ -1,124 +1,102 @@
-<nav class="tesxt-center">
-  <div class="nav nav-tabs row" id="nav-tab" role="tablist">
-    <button
-      class="nav-link active col text-center"
-      id="nav-about-tab"
-      data-bs-toggle="tab"
-      data-bs-target="#nav-about"
-      type="button"
-      role="tab"
-      aria-controls="nav-about"
-      aria-selected="true"
+<nav
+  id="navbar_id"
+  class="navbar navbar-expand-lg navbar-light bg-light navbar1 transparent"
+>
+  <div class="container-fluid">
+    <a class="navbar-brand pb-0 pt-3 ms-5" routerLink="/home"
+      ><h3 class="name pt-2">bence mezei</h3></a
     >
-      About
-    </button>
-    <button
-      class="nav-link col text-center"
-      id="nav-works-tab"
-      data-bs-toggle="tab"
-      data-bs-target="#nav-works"
-      type="button"
-      role="tab"
-      aria-controls="nav-profile"
-      aria-selected="false"
-    >
-      Works
-    </button>
-    <button
-      class="nav-link col text-center"
-      id="nav-calendar-tab"
-      data-bs-toggle="tab"
-      data-bs-target="#nav-calendar"
-      type="button"
-      role="tab"
-      aria-controls="nav-home"
-      aria-selected="true"
-    >
-      Calendar
-    </button>
 
     <button
-      class="nav-link col text-center"
-      id="nav-contact-tab"
-      data-bs-toggle="tab"
-      data-bs-target="#nav-contact"
+      id="hamburger_menu_button"
+      class="navbar-toggler"
       type="button"
-      role="tab"
-      aria-controls="nav-contact"
-      aria-selected="false"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
     >
-      Contact
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line" style="margin-bottom: 0"></span>
     </button>
+    <div
+      class="collapse navbar-collapse links-container"
+      id="navbarSupportedContent"
+    >
+      <div class="nav-links">
+        <ul class="navbar-nav me-auto mb-2 mt-2 mb-lg-0">
+          <!-- <li class="nav-item dropdown text-center">
+            <a
+              class="nav-link active dropdown-toggle"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              WORKS
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <div>
+                  <a
+                    routerLink="/works-personal"
+                    class="dropdown-item text-center"
+                    >PERSONAL</a
+                  ><a
+                    routerLink="/works-guests"
+                    class="dropdown-item text-center"
+                    >COLLABORATIONS</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </li> -->
+          <li class="nav-item text-center">
+            <a
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+              routerLink="/works-personal"
+              class="nav-link active"
+              aria-current="page"
+              >WORKS</a
+            >
+          </li>
+          <li class="nav-item text-center">
+            <a
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+              routerLink="/calendar"
+              class="nav-link active"
+              aria-current="page"
+              >DATES</a
+            >
+          </li>
+          <li class="nav-item text-center">
+            <a
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+              routerLink="/about"
+              class="nav-link active"
+              aria-current="page"
+              >ABOUT</a
+            >
+          </li>
+
+          <li class="nav-item text-center">
+            <a
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+              routerLink="/contact"
+              class="nav-link active"
+              aria-current="page"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </nav>
-<div class="tab-content" id="nav-tabContent">
-  <div
-    class="tab-pane fade show active"
-    id="nav-works"
-    role="tabpanel"
-    aria-labelledby="nav-works-tab"
-  >
-    <nav class="text-center">
-      <div class="nav nav-tabs row" id="nav-tab" role="tablist">
-        <button
-          class="nav-link col text-center"
-          id="nav-personal-tab"
-          data-bs-toggle="tab"
-          data-bs-target="#nav-home"
-          type="button"
-          role="tab"
-          aria-controls="nav-home"
-          aria-selected="true"
-        >
-          Personal
-        </button>
-        <button
-          class="nav-link col text-center"
-          id="nav-profile-tab"
-          data-bs-toggle="tab"
-          data-bs-target="#nav-profile"
-          type="button"
-          role="tab"
-          aria-controls="nav-profile"
-          aria-selected="false"
-        >
-          Guest
-        </button>
-      </div>
-    </nav>
-  </div>
-  <div
-    class="tab-pane fade"
-    id="nav-profile"
-    role="tabpanel"
-    aria-labelledby="nav-profile-tab"
-  >
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, corporis.
-  </div>
-  <div
-    class="tab-pane fade"
-    id="nav-contact"
-    role="tabpanel"
-    aria-labelledby="nav-contact-tab"
-  >
-    ...
-  </div>
-  <div
-    class="tab-pane fade"
-    id="nav-about"
-    role="tabpanel"
-    aria-labelledby="nav-about-tab"
-  ></div>
-  <div
-    class="tab-pane fade"
-    id="nav-calendar"
-    role="tabpanel"
-    aria-labelledby="nav-calendar-tab"
-  ></div>
-  <div
-    class="tab-pane fade"
-    id="nav-about"
-    role="tabpanel"
-    aria-labelledby="nav-about-tab"
-  ></div>
-</div>

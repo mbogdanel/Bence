@@ -18,3 +18,13 @@ hr {
   margin-top: 10px;
   border-left: black 2px solid;
 }
+
+#carouselExampleCaptions {
+  margin: auto;
+  width: 90%;
+}
+
+.work-image {
+  aspect-ratio: 4/2.6;
+  object-fit: cover;
+}

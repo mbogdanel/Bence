@@ -4,7 +4,7 @@
 >
   <div class="container-fluid">
     <a class="navbar-brand pb-0 pt-3 ms-5" routerLink="/home"
-      ><h4 class="name">bence mezei</h4></a
+      ><h3 class="name pt-2">bence mezei</h3></a
     >
     <button
       id="hamburger_menu_button"
@@ -56,6 +56,8 @@
           </li> -->
           <li class="nav-item text-center">
             <a
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
               routerLink="/works-personal"
               class="nav-link active"
               aria-current="page"
@@ -64,6 +66,8 @@
           </li>
           <li class="nav-item text-center">
             <a
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
               routerLink="/calendar"
               class="nav-link active"
               aria-current="page"
@@ -71,13 +75,23 @@
             >
           </li>
           <li class="nav-item text-center">
-            <a routerLink="/about" class="nav-link active" aria-current="page"
+            <a
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+              routerLink="/about"
+              class="nav-link active"
+              aria-current="page"
               >ABOUT</a
             >
           </li>
 
           <li class="nav-item text-center">
-            <a routerLink="/contact" class="nav-link active" aria-current="page"
+            <a
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+              routerLink="/contact"
+              class="nav-link active"
+              aria-current="page"
               >CONTACT</a
             >
           </li>

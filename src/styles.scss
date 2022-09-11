@@ -2,7 +2,12 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-  font-family: "Courier Prime", monospace;
+  font-family: "Courier Prime", monospace !important;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 app-root {

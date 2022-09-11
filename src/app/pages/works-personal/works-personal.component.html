@@ -1,13 +1,15 @@
-<div class="container mt-5 w-75">
+<div class="container mt-5 w-75 flex-wrapper">
   <div class="row">
-    <h2 class="d-flex justify-content-center">Works</h2>
+    <h2 class="d-flex justify-content-center"></h2>
   </div>
   <div class="container-image">
     <!-- heading text -->
     <ul class="image-gallery">
       <li *ngFor="let work of works">
-        <a [routerLink]="['/works-personal', work.id]">
-          <img src="{{ work.imagePath }}" alt="" />
+        <a [routerLink]="['/works-personal', work.id, work.label]">
+          <div class="image-container">
+            <img src="{{ work.imagePath[0] }}" alt="" />
+          </div>
           <div class="overlay">
             <span>{{ work.title }}</span>
           </div>

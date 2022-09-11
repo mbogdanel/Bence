@@ -146,9 +146,15 @@ export class DataService {
   works = [
     {
       id: 1,
+      label: 'DRACULA_AND_THE_GIRL_AND_THE_GLOOMY_FOREST',
       title: 'DRACULA AND THE GIRL AND THE GLOOMY FOREST ',
       subtitle: 'An Epic Solo Horror Musical In Three Acts ',
-      imagePath: 'assets/pictures/dracula_41.jpg',
+      imagePath: [
+        'assets/pictures/dracula_41.jpg',
+        'assets/pictures/dracula_2022_photo-andrejlamut_WEB-18.jpg',
+        'assets/pictures/dracula_2022_photo-andrejlamut_WEB-24.jpg',
+        'assets/pictures/dracula_2022_photo-andrejlamut_WEB-87.jpg',
+      ],
       paragraphs: [
         'DRACULA AND THE GIRL AND THE GLOOMY FOREST is an ambitious solo performance undertaking on an epic vampire story.  Drawing the line somewhere between the trivial and genuine, amateur and professional, building its own specific language with the restrictions of the narrative form, horror genre, fairy tale and musical theater, the performance tells the story of the lonesome Dracula.',
         'Dracula is a bloodthirsty vampire who, as a wannabe playwright, sets on a journey to pitch his script and find friends in the Town’s Theater. As his path leads through The Gloomy Forest, where The Headless Ghost, — an actor who took his own life — haunts, he meets the disillusioned Girl, an ex-dancer, who searches for her lost identity while working at a film production. Here begins a tale of their quest for artistic function, happiness and love, their struggles with work and life, their encounter and ultimate death. ',
@@ -168,9 +174,14 @@ export class DataService {
     },
     {
       id: 2,
-      title: 'BŰNBEESÉS ‘22 ',
+      label: 'BUNBEESES_22',
+      title: 'BŰNBEESÉS ‘22',
       subtitle: 'Egzisztenciális Sci-Fi Mesejáték Két Részben',
-      imagePath: 'assets/pictures/bunbeeses_ea_WEB_054.jpg',
+      imagePath: [
+        'assets/pictures/bunbeeses_ea_WEB_054.jpg',
+        'assets/pictures/bunbeeses_ea_WEB_019.jpg',
+        'assets/pictures/bunbeeses_ea_WEB_021.jpg',
+      ],
 
       paragraphs: [
         'Az előadás valós személyekkel, munkatársakkal, barátokkal folytatott interjúbeszélgetések tartalmát és szövegeit verbatim felhasználva formálja meg saját verzióját a híres bűnbeesés történetnek. Keretbe foglalja korunk társadalmának elidegenedő, összeomló kultúrájának lehetséges okait, valamint belső és külső tényezők által felmerülő egzisztenciális aggodalmakra keres alternatívákat. A színház, tánc, sci-fi, szappanopera, némafilm és mesejáték formavilágából merít és így hozza létre nyelvezetét, melyben nem a paradicsomi tökéletes, inkabb az e-világi tökéletlen, a hétköznapi kerül piedesztálra. Csapongó, laikus gondolatok, elrugaszkodott feltevések és naiv elképzelések dialógusai szövik át az első emberpár ominózus történetének cselekményét – ahol Éva hős, Ádám harcos álmodozó, és a Kígyó helyett egy UFO kísért – a közöny betegítő érzésétől, a színház funkcióján át, földünk aggasztó helyzetéig. ',
