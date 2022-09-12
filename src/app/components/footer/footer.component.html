@@ -1,4 +1,4 @@
-<footer class="text-white mt-5">
+<footer *ngIf="currentRoute !== '/home'" class="text-white mt-5">
   <!-- Grid container -->
   <div class="pt-2">
     <section class="text-center">
@@ -11,10 +11,21 @@
       >
         <fa-icon [icon]="faInstagram"></fa-icon>
       </a>
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://vimeo.com/745315392"
+        role="button"
+        data-mdb-ripple-color="dark"
+      >
+        <fa-icon [icon]="faVimeo"></fa-icon>
+      </a>
     </section>
   </div>
 
-  <div class="text-dark p-3 copyright">
+  <div
+    *ngIf="currentRoute === '/contact'"
+    class="text-dark p-3 copyright text-center"
+  >
     2022 ©
     <a
       class="text-dark"

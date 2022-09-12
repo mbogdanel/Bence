@@ -5,6 +5,7 @@ import {
   faTwitter,
   faFacebookF,
   faInstagramSquare,
+  faVimeo,
 } from '@fortawesome/free-brands-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
@@ -18,8 +19,8 @@ export class FooterComponent implements OnInit {
   faInstagram = faInstagramSquare;
   faTwitter = faTwitter;
   faHeart = faHeart;
+  faVimeo = faVimeo;
 
-  name = 'Get Current Url Route Demo';
   currentRoute: string;
   home = false;
 
@@ -31,11 +32,10 @@ export class FooterComponent implements OnInit {
           this.home = true;
         } else this.home = false;
       }
+
       console.log(this.currentRoute);
     });
   }
 
-  ngOnInit(): void {
-    // console.log(this.router.url);
-  }
+  ngOnInit(): void {}
 }

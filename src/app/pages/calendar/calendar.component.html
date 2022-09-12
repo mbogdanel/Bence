@@ -5,17 +5,15 @@
       <strong>{{ year.year }}</strong>
     </h3>
     <div *ngFor="let event of year.events" class="row">
-      <div class="d-flex flex-row">
-        <div class="ms-2 me-auto">
+      <div class="d-flex flex-col">
+        <div class="ms-2 me-auto col-9">
           <div class="fw-bold">{{ event.play }}</div>
           {{ event.venue }}
         </div>
-        <div class="mt-2">{{ event.date }}</div>
+        <div class="col-3">{{ event.date }}</div>
       </div>
 
       <hr />
     </div>
   </div>
 </div>
-
-<app-footer></app-footer>

@@ -4,6 +4,11 @@
   }
 }
 
+@media only screen and (max-width: 420px) {
+  .row {
+    font-size: 12px;
+  }
+}
 .hr-year {
   border: 10px solid rgb(196, 196, 196);
   border-radius: 5px;
