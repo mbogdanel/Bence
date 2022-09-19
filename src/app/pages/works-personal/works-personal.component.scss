@@ -9,6 +9,9 @@
   }
 }
 
+@media only screen and (min-width: 1024px) {
+}
+
 hr {
   border: 10px solid #b30000;
   border-radius: 5px;
@@ -41,7 +44,7 @@ body {
 }
 
 .image-gallery > li {
-  flex-basis: 450px; /* width: 350px; */
+  flex-basis: 550px;
 }
 
 .image-gallery li img {
@@ -61,7 +64,7 @@ ul {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(57, 57, 57, 0.502);
+  background: rgba(57, 57, 57, 0.25);
   top: 0;
   left: 0;
   transform: scale(0);

@@ -7,14 +7,17 @@
   .work-card {
     padding: 0;
   }
+  .work-card {
+    border-style: none;
+    margin: auto;
+  }
 }
 
-hr {
-  border: 10px solid #b30000;
-  border-radius: 5px;
-}
-
-.card-body {
+.work-card {
   margin-top: 10px;
   border-left: black 2px solid;
+}
+
+a {
+  text-decoration: none;
 }

@@ -18,17 +18,17 @@
       >
         <div class="carousel-inner">
           <div
-            *ngFor="let picture of work.imagePath; let i = index"
+            *ngFor="let picture of work.images; let i = index"
             [ngClass]="i === 0 ? 'active' : ''"
             class="carousel-item"
           >
             <img
-              src="{{ picture }}"
+              src="{{ picture.path }}"
               class="card-img-top img-fluid mt-2 work-image"
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block">
-              <p>Photo by <strong>Andrej Lamut</strong></p>
+              <p>Photo by {{ picture.photographer }}</p>
             </div>
           </div>
         </div>

@@ -149,11 +149,18 @@ export class DataService {
       label: 'DRACULA_AND_THE_GIRL_AND_THE_GLOOMY_FOREST',
       title: 'DRACULA AND THE GIRL AND THE GLOOMY FOREST ',
       subtitle: 'An Epic Solo Horror Musical In Three Acts ',
-      imagePath: [
-        'assets/pictures/dracula_41.jpg',
-        'assets/pictures/dracula_2022_photo-andrejlamut_WEB-18.jpg',
-        'assets/pictures/dracula_2022_photo-andrejlamut_WEB-24.jpg',
-        'assets/pictures/dracula_2022_photo-andrejlamut_WEB-87.jpg',
+      images: [
+        {
+          path: 'assets/pictures/dracula_41.jpg',
+          photographer: 'Andrej Lamut',
+        },
+        {
+          path: 'assets/pictures/dracula_2022_photo-andrejlamut_WEB-87.jpg',
+          photographer: 'Andrej Lamut',
+        },
+
+        // 'assets/pictures/dracula_2022_photo-andrejlamut_WEB-18.jpg',
+        // 'assets/pictures/dracula_2022_photo-andrejlamut_WEB-24.jpg',
       ],
       paragraphs: [
         'DRACULA AND THE GIRL AND THE GLOOMY FOREST is an ambitious solo performance undertaking on an epic vampire story.  Drawing the line somewhere between the trivial and genuine, amateur and professional, building its own specific language with the restrictions of the narrative form, horror genre, fairy tale and musical theater, the performance tells the story of the lonesome Dracula.',
@@ -177,10 +184,19 @@ export class DataService {
       label: 'BUNBEESES_22',
       title: 'BŰNBEESÉS ‘22',
       subtitle: 'Egzisztenciális Sci-Fi Mesejáték Két Részben',
-      imagePath: [
-        'assets/pictures/bunbeeses_ea_WEB_054.jpg',
-        'assets/pictures/bunbeeses_ea_WEB_019.jpg',
-        'assets/pictures/bunbeeses_ea_WEB_021.jpg',
+      images: [
+        {
+          path: 'assets/pictures/bunbeeses_ea_WEB_054.jpg',
+          photographer: 'Daniel Dömölky',
+        },
+        {
+          path: 'assets/pictures/bunbeeses_ea_WEB_019.jpg',
+          photographer: 'Daniel Dömölky',
+        },
+        {
+          path: 'assets/pictures/bunbeeses_ea_WEB_021.jpg',
+          photographer: 'Daniel Dömölky',
+        },
       ],
 
       paragraphs: [
@@ -201,7 +217,7 @@ export class DataService {
     //   id: 3,
     //   title: 'Title3',
     //   subtitle: 'subtitle3 ',
-    //   imagePath:
+    //   images:
     //     'https://images.pexels.com/photos/1916824/pexels-photo-1916824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     //   paragraphs: [
     //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam itaque deserunt natus nihil magni aliquid distinctio eligendi earum, at incidunt quaerat quia pariatur iure, tempora voluptates libero maxime amet? Beatae, vero recusandae, ipsam sint maxime ut praesentium tempora tenetur, distinctio illo necessitatibus consequatur fugit sapiente error et. Beatae, aliquid nemo.',
@@ -216,7 +232,7 @@ export class DataService {
     //   id: 4,
     //   title: 'Title4',
     //   subtitle: 'subtitle4 ',
-    //   imagePath:
+    //   images:
     //     'https://images.pexels.com/photos/3693143/pexels-photo-3693143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     //   paragraphs: [
     //     'sint maxime ut praesentium tempora tenetur, distinctio illo necessitatibus consequatur fugit sapiente error et. Beatae, aliquid nemo.',
@@ -231,7 +247,7 @@ export class DataService {
     //   id: 5,
     //   title: 'Title5',
     //   subtitle: 'subtitle5 ',
-    //   imagePath:
+    //   images:
     //     'https://images.pexels.com/photos/933255/pexels-photo-933255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     //   paragraphs: [
     //     'sint maxime ut praesentium tempora tenetur, distinctio illo necessitatibus consequatur fugit sapiente error et. Beatae, aliquid nemo.',
@@ -246,7 +262,7 @@ export class DataService {
     //   id: 6,
     //   title: 'Title6',
     //   subtitle: 'subtitle6 ',
-    //   imagePath:
+    //   images:
     //     'https://images.pexels.com/photos/1161542/pexels-photo-1161542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     //   paragraphs: [
     //     'sint maxime ut praesentium tempora tenetur, distinctio illo necessitatibus consequatur fugit sapiente error et. Beatae, aliquid nemo.',
@@ -261,7 +277,7 @@ export class DataService {
     //   id: 7,
     //   title: 'Title7',
     //   subtitle: 'subtitle7 ',
-    //   imagePath:
+    //   images:
     //     'https://images.pexels.com/photos/1043331/pexels-photo-1043331.jpeg?auto=compress&cs=tinysrgb&w=1600',
     //   paragraphs: [
     //     'sint maxime ut praesentium tempora tenetur, distinctio illo necessitatibus consequatur fugit sapiente error et. Beatae, aliquid nemo.',
@@ -276,7 +292,7 @@ export class DataService {
     //   id: 8,
     //   title: 'Title8',
     //   subtitle: 'subtitle8 ',
-    //   imagePath:
+    //   images:
     //     'https://images.pexels.com/photos/1460037/pexels-photo-1460037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     //   paragraphs: [
     //     'sint maxime ut praesentium tempora tenetur, distinctio illo necessitatibus consequatur fugit sapiente error et. Beatae, aliquid nemo.',
