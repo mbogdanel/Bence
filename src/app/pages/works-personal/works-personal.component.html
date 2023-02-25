@@ -10,7 +10,7 @@
           <div class="image-container">
             <img src="{{ work.images[0].path }}" alt="" />
           </div>
-          <div class="overlay">
+          <div *ngIf="work.images[0].photographer" class="overlay">
             <span class="mt-5"
               >Photo By {{ work.images[0].photographer }}
             </span>

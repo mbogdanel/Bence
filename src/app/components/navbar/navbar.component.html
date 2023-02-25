@@ -27,7 +27,7 @@
     >
       <div class="nav-links">
         <ul class="navbar-nav me-auto mb-2 pt-2 mb-lg-0">
-          <!-- <li class="nav-item dropdown text-center">
+          <li class="nav-item dropdown text-center">
             <a
               class="nav-link active dropdown-toggle"
               id="navbarDropdown"
@@ -42,10 +42,14 @@
               <li>
                 <div>
                   <a
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
                     routerLink="/works-personal"
                     class="dropdown-item text-center"
                     >PERSONAL</a
                   ><a
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
                     routerLink="/works-guests"
                     class="dropdown-item text-center"
                     >COLLABORATIONS</a
@@ -53,16 +57,6 @@
                 </div>
               </li>
             </ul>
-          </li> -->
-          <li class="nav-item text-center">
-            <a
-              data-bs-toggle="collapse"
-              data-bs-target=".navbar-collapse.show"
-              routerLink="/works-personal"
-              class="nav-link active"
-              aria-current="page"
-              >WORKS</a
-            >
           </li>
           <li class="nav-item text-center">
             <a

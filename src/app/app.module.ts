@@ -15,6 +15,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { WorkPersonalComponent } from './pages/work-personal/work-personal.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CollaborationComponent } from './pages/collaboration/collaboration.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     FooterComponent,
     HomeComponent,
     WorkPersonalComponent,
+    CollaborationComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, FontAwesomeModule],
   providers: [],
