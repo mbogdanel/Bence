@@ -13,8 +13,43 @@ export class DataService {
 
   calendar = [
     {
+      year: 2023,
+      events: [
+        {
+          play: 'Hodworks & Dollár Papa Gyermekei - Kabaré',
+          venue: 'Trafó Kortárs Művészetek Háza, BUDAPEST (HU)',
+          date: '23 February 2023',
+        },
+        {
+          play: 'Bence Mezei - BŰNBEESÉS ’22’',
+          venue: 'MANYI - Kulturális Műhely, BUDAPEST (HU)',
+          date: '4 February 2023',
+        },
+        {
+          play: 'Hodworks & Dollár Papa Gyermekei - Kabaré',
+          venue: 'Trafó Kortárs Művészetek Háza, BUDAPEST (HU)',
+          date: '26 January 2023',
+        },
+        {
+          play: 'Hodworks & Dollár Papa Gyermekei - Kabaré',
+          venue: 'Trafó Kortárs Művészetek Háza, BUDAPEST (HU)',
+          date: '19 January 2023',
+        },
+      ],
+    },
+    {
       year: 2022,
       events: [
+        {
+          play: 'Bence Mezei - BŰNBEESÉS ’22’',
+          venue: 'MANYI - Kulturális Műhely, BUDAPEST (HU)',
+          date: '17 December 2022',
+        },
+        {
+          play: 'Hodworks & Dollár Papa Gyermekei - Kabaré',
+          venue: 'Trafó Kortárs Művészetek Háza, BUDAPEST (HU)',
+          date: '14 December 2022',
+        },
         {
           play: 'Nature Theater of Oklahoma - Burt Turrido. An Opera',
           venue: 'Espoo City Theatre , ESPOO (FI)',
