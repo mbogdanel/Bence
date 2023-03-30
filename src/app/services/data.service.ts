@@ -6,8 +6,7 @@ import { Injectable } from '@angular/core';
 export class DataService {
   aboutPage = {
     paragraphs: [
-      'Bence is a Hungarian freelance dancer, performer and theater maker based between Budapest, Hungary and Ljubljana, Slovenia. He is an actor with Nature Theater of Oklahoma performing in Karoline und Kasimir: Noli Me Tangere, Burt Turrido. An Opera, No President. A Story Ballet of Enlightenment in Two Immoral Acts and Pursuit Happiness (2016-2022). He performed, collaborated and danced for various choreographers, theater and dance companies over the past decade, including Lionel Hoche, Éva Duda, Adrienn Hód, Csaba Molnár, EnKnapGroup, Club Guy and Roni, SNG Nova Gorica and Theater Glej among others.  ',
-      'Bence makes his own works since 2016, creating performances situated between dance and theater: first a solo, UTOPIANOW (in a search for a beautiful life), then in collaboration with other artists, Odyssey Variations Episode One: Athena’s Play, Diary Monologues in 4 Acts, Dracula and The Girl and The Gloomy Forest (An Epic Solo Horror Musical In Three Acts) and Bűnbeesés ’22 (A Sci-fi Fairy Tale in Two Parts) (2016-2022). He taught at the Hungarian Theater’s Acting Department and shares a Zupancic Award with EnKnapGroup for outstanding work and impact on the Slovenian dance scene.',
+      'Bence Mezei is a freelance dancer, performer and theater maker based in Budapest, Hungary and Ljubljana, Slovenia. He is a member of Nature Theater of Oklahoma and has performed with them in Karoline und Kasimir: Noli Me Tangere, Burt Turrido. An Opera, No President (A Story Ballet of Enlightenment in Two Immoral Acts) and Pursuit Happiness (2016-2022). Bence has wrote, choreographed and directed his own pieces in collaboration with both students and professionals, creating performances situated between dance and theater. Including UTOPIANOW (in a search for a beautiful life), Odyssey Variations Episode One: Athena’s Play, Diary Monologues in 4 Acts, Dracula and The Girl and The Gloomy Forest and ’22 The Fall Of Man (2016-2022). He performed, collaborated and danced for various choreographers, theater and dance companies over the past decade, including Lionel Hoche, Éva Duda, Hodworks, EnKnapGroup, Club Guy and Roni, SNG Nova Gorica, Dollár Papa Gyermekei and Theater Glej among others. He taught at the Hungarian Theater’s Studio Department in Budapest and shares a Zupancic Award with EnKnapGroup for outstanding work and impact on the Slovenian dance scene. Bence builds his works from both personal and found material, freely mixing all kinds of performance genres and using theatrical devices, aimed to generate events that fully connects and pushes the limits of all the participants.',
     ],
   };
 
@@ -15,6 +14,21 @@ export class DataService {
     {
       year: 2023,
       events: [
+        {
+          play: 'Dollár Papa Gyermekei - Blue Lagoon',
+          venue: 'Trafó Kortárs Művészetek Háza, BUDAPEST (HU)',
+          date: '4 - 5 May 2023',
+        },
+        {
+          play: 'Hodworks & Dollár Papa Gyermekei - Kabaré',
+          venue: 'Trafó Kortárs Művészetek Háza, BUDAPEST (HU)',
+          date: '16 April 2023',
+        },
+        {
+          play: 'Hodworks & Dollár Papa Gyermekei - Kabaré',
+          venue: 'Trafó Kortárs Művészetek Háza, BUDAPEST (HU)',
+          date: '9 March 2023',
+        },
         {
           play: 'Hodworks & Dollár Papa Gyermekei - Kabaré',
           venue: 'Trafó Kortárs Művészetek Háza, BUDAPEST (HU)',

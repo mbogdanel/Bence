@@ -17,7 +17,8 @@ nav {
   z-index: 100;
   background-color: transparent !important;
   a {
-    color: rgb(255, 255, 255) !important;
+    // color: rgb(255, 255, 255) !important;
+    font-weight: 800;
   }
 }
 
@@ -36,7 +37,8 @@ li {
   }
 
   a {
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 800;
   }
 }
 
@@ -64,7 +66,8 @@ a:hover {
   width: 100%;
   float: left;
   height: 2px;
-  background-color: #fff;
+  // background-color: #fff;
+  background-color: black;
   margin-bottom: 5px;
 }
 
@@ -74,9 +77,11 @@ a:hover {
 
 .name {
   padding: 5px;
-  border: 1px solid #fff;
+  // border: 1px solid #fff;
+  border: 1px solid black;
 }
 
 nav {
   border-bottom: 1px solid yellow;
+  background: rgba(218, 189, 181, 0.4) !important;
 }
