@@ -15,6 +15,31 @@ export class DataService {
       year: 2023,
       events: [
         {
+          play: 'Hodworks & Dollár Papa Gyermekei - Kabaré',
+          venue: 'A Harmadik Hely, BUDAPEST (HU)',
+          date: '24 May 2023',
+        },
+        {
+          play: 'Hodworks & Dollár Papa Gyermekei - Kabaré',
+          venue: 'Trafó Kortárs Művészetek Háza, BUDAPEST (HU)',
+          date: '23 May 2023',
+        },
+        {
+          play: 'Bence Mezei - BŰNBEESÉS ’22',
+          venue: 'TIM Stúdió , BUDAPEST (HU)',
+          date: '15 May 2023',
+        },
+        {
+          play: 'Bence Mezei - DRACULA AND THE GIRL AND THE GLOOMY FOREST',
+          venue: 'Gledalisce Glej, Ljubljana (SI)',
+          date: '11-12 May 2023',
+        },
+        {
+          play: 'Bence Mezei - DRACULA AND THE GIRL AND THE GLOOMY FOREST',
+          venue: 'Gledalisce Glej, Ljubljana (SI)',
+          date: '8-9 May 2023',
+        },
+        {
           play: 'Dollár Papa Gyermekei - Blue Lagoon',
           venue: 'Trafó Kortárs Művészetek Háza, BUDAPEST (HU)',
           date: '4 - 5 May 2023',
@@ -209,18 +234,20 @@ export class DataService {
         },
       ],
       paragraphs: [
-        'DRACULA AND THE GIRL AND THE GLOOMY FOREST is an ambitious solo performance undertaking on an epic vampire story.  Drawing the line somewhere between the trivial and genuine, amateur and professional, building its own specific language with the restrictions of the narrative form, horror genre, fairy tale and musical theater, the performance tells the story of the lonesome Dracula.',
-        'Dracula is a bloodthirsty vampire who, as a wannabe playwright, sets on a journey to pitch his script and find friends in the Town’s Theater. As his path leads through The Gloomy Forest, where The Headless Ghost, — an actor who took his own life — haunts, he meets the disillusioned Girl, an ex-dancer, who searches for her lost identity while working at a film production. Here begins a tale of their quest for artistic function, happiness and love, their struggles with work and life, their encounter and ultimate death. ',
-        'Through the characters and characteristics of the chosen forms, the performance records the struggles of everyday life and work and through a forest of inner conflicts - expectations, dreams, doubts and wishes - searches for the possibilities of a release: a way out of the crisis. ',
+        'DRACULA AND THE GIRL AND THE GLOOMY FOREST is an outrageous ode written on the erratic nature of art making. It is an energetic solo performance of an epic size, magnifying the ordinary, the ups and downs of every days, in which it was created.',
+
+        'In this performance, Bence Mezei explores and interweaves the popular formats of contemporary dance, horror film, musical theater and epic poetry, to generate a poetic and at the same time ridiculous narrative about the romantic but often horrifying landscape stretching before the individual at work. Through the restrictions of the narrative form, horror genre, fairy tale and musical theater, the performance tells the turbulent tale of the lonesome Dracula.',
+
+        'Dracula is a bloodthirsty vampire who, as a wannabe playwright, sets on a journey to pitch his script and find friends in the Town’s Theater. As his path leads through the Gloomy Forest, where the Headless Ghost, - a suicidal actor, who just couldn’t continue - haunts, he meets the disillusioned Girl, an ex-dancer, working at a film production. Here begins a tale of their quest for artistic function, happiness and love, their struggles with work and life, their encounter and ultimate death.',
+
+        'Drawing the line somewhere between the trivial and genuine, amateur and professional, the performance records the struggles of everyday life and work, and through a forest of inner conflicts - expectations, dreams, doubts and wishes, - it searches for the possibilities of a release: a way out of the crisis.',
       ],
       credits: [
         'Text and Direction: Bence Mezei',
         'Performed by: Ida Hellsten',
-        'Light Design: Leon Curk ',
-        'Poster Design: Ágnes Mezei ',
-        'Rehearsal Assistant: Nohemi Barriuso ',
+        'Light: Leon Curk ',
+        'Sound: Nohemi Barriuso ',
         'Production Support: Barbara Poček, Glej Theatre ',
-        'Public Relations: Tjaša Pureber, Glej Theatre ',
         'Co-production: Glej Theatre ',
         'Support: Municipality of Ljubljana ',
       ],
