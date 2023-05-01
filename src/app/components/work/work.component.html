@@ -28,7 +28,9 @@
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block">
-              <p>Photo by {{ picture.photographer }}</p>
+              <p *ngIf="picture.photographer">
+                Photo by {{ picture.photographer }}
+              </p>
             </div>
           </div>
         </div>

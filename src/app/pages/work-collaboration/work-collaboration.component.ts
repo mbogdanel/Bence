@@ -3,11 +3,11 @@ import { ActivatedRoute } from '@angular/router';
 import { DataService } from 'src/app/services/data.service';
 
 @Component({
-  selector: 'app-collaboration',
-  templateUrl: './collaboration.component.html',
-  styleUrls: ['./collaboration.component.scss'],
+  selector: 'app-work-collaboration',
+  templateUrl: './work-collaboration.component.html',
+  styleUrls: ['./work-collaboration.component.scss'],
 })
-export class CollaborationComponent implements OnInit {
+export class WorkCollaborationComponent implements OnInit {
   id: any;
   work: any;
   works: any;

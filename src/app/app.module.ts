@@ -15,7 +15,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { WorkPersonalComponent } from './pages/work-personal/work-personal.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { CollaborationComponent } from './pages/collaboration/collaboration.component';
+import { WorkComponent } from './components/work/work.component';
+import { WorkCollaborationComponent } from './pages/work-collaboration/work-collaboration.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CollaborationComponent } from './pages/collaboration/collaboration.comp
     FooterComponent,
     HomeComponent,
     WorkPersonalComponent,
-    CollaborationComponent,
+    WorkComponent,
+    WorkCollaborationComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, FontAwesomeModule],
   providers: [],
