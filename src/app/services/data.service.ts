@@ -373,7 +373,7 @@ export class DataService {
       label: 'Burt_Turrido',
       title: 'NATURE THEATER OF OKLAHOMA ',
       subtitle: 'Burt Turrido: An Opera. ',
-      video: 'https://vimeo.com/511614019',
+      video: '',
       images: [
         {
           path: 'assets/pictures/Burt_Turrido.jpg',
@@ -407,7 +407,7 @@ export class DataService {
       title: 'NATURE THEATER OF OKLAHOMA ',
       subtitle:
         'No President - A Story Ballet of Enlightenment in Two Immoral Acts',
-      video: 'https://www.youtube.com/watch?v=h8FoKGSJNr8',
+      video: '',
       images: [
         {
           path: 'assets/pictures/No-President1.jpg',
@@ -476,7 +476,7 @@ export class DataService {
       label: 'KAROLINE_UND_KASIMIR',
       title: 'NATURE THEATER OF OKLAHOMA: ',
       subtitle: 'KAROLINE UND KASIMIR – NOLI ME TANGERE ',
-      video: 'https://www.youtube.com/watch?v=SkSlzfny7rA',
+      video: 'https://www.youtube.com/embed/SkSlzfny7rA',
       images: [
         {
           path: 'assets/pictures/KAROLINE UND KASIMIR_Bence Mezei_Jürgen Weisert(c)Marcel Urlaub_Volkstheater.jpg',
@@ -500,7 +500,7 @@ export class DataService {
       label: 'pursuit_of_happiness',
       title: 'NATURE THEATER OF OKLAHOMA ',
       subtitle: 'Pursuit of Happiness ',
-      video: 'https://vimeo.com/193170347',
+      video: 'https://player.vimeo.com/video/193170347?h=cc50f6407f',
       images: [
         {
           path: 'assets/pictures/pursuit_of_happiness1.jpg',

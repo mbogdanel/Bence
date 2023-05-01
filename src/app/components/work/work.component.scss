@@ -50,6 +50,11 @@ hr {
   width: 100%;
 }
 
+iframe {
+  width: 640px;
+  height: 360px;
+}
+
 // * Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -65,5 +70,14 @@ hr {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .photo-credit {
+    font-size: 12px;
+  }
+  iframe {
+    height: 200px;
   }
 }
