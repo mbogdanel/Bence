@@ -11,9 +11,6 @@
     border-style: none;
     margin: auto;
   }
-  .photo-credit {
-    font-size: 12px;
-  }
 }
 
 .work-card {
@@ -25,4 +22,12 @@ h6,
 a {
   text-decoration: none;
   color: black;
+}
+
+.photo-credit {
+  font-size: 12px;
+}
+
+.card-body {
+  padding-top: 0;
 }

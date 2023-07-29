@@ -9,9 +9,6 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
-}
-
 hr {
   border: 10px solid #b30000;
   border-radius: 5px;
@@ -45,6 +42,8 @@ body {
 
 .image-gallery > li {
   flex-basis: 550px;
+  min-width: 15%;
+  max-width: 30%;
 }
 
 .image-gallery li img {
@@ -90,4 +89,17 @@ ul {
 
 .image-container {
   aspect-ratio: 9/6;
+}
+
+@media only screen and (max-width: 420px) {
+  .work-card {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .image-gallery > li {
+    flex-basis: 550px;
+    min-width: 100%;
+  }
 }

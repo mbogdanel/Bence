@@ -6,7 +6,26 @@ import { Injectable } from '@angular/core';
 export class DataService {
   aboutPage = {
     paragraphs: [
-      'Bence Mezei is a freelance dancer, performer and theater maker based in Budapest, Hungary and Ljubljana, Slovenia. He is a member of Nature Theater of Oklahoma and has performed with them in Karoline und Kasimir: Noli Me Tangere, Burt Turrido. An Opera, No President (A Story Ballet of Enlightenment in Two Immoral Acts) and Pursuit Happiness (2016-2022). Bence has wrote, choreographed and directed his own pieces in collaboration with both students and professionals, creating performances situated between dance and theater. Including UTOPIANOW (in a search for a beautiful life), Odyssey Variations Episode One: Athena’s Play, Diary Monologues in 4 Acts, Dracula and The Girl and The Gloomy Forest and ’22 The Fall Of Man (2016-2022). He performed, collaborated and danced for various choreographers, theater and dance companies over the past decade, including Lionel Hoche, Éva Duda, Hodworks, EnKnapGroup, Club Guy and Roni, SNG Nova Gorica, Dollár Papa Gyermekei and Theater Glej among others. He taught at the Hungarian Theater’s Studio Department in Budapest and shares a Zupancic Award with EnKnapGroup for outstanding work and impact on the Slovenian dance scene. Bence builds his works from both personal and found material, freely mixing all kinds of performance genres and using theatrical devices, aimed to generate events that fully connects and pushes the limits of all the participants.',
+      `Bence Mezei is a dancer, performer and theater maker based in Budapest, 
+      Hungary and Ljubljana, Slovenia. He is a member of the American performance 
+      group Nature Theater of Oklahoma and has performed with them in Karoline und 
+      Kasimir: Noli Me Tangere, Burt Turrido. An Opera, No President (A Story Ballet of 
+      Enlightenment in Two Immoral Acts) and Pursuit of Happiness. Bence has written, 
+      choreographed and directed his own pieces in collaboration with both students 
+      and professionals, creating performances situated between dance and theater. 
+      Including UTOPIANOW (in search for a beautiful life), Odyssey Variations - Episode 
+      One: Athena’s play, Diary Monologues in 4 Acts, Dracula and The Girl and The 
+      Gloomy Forest and ’22 The Fall of Man. He performed, collaborated and danced 
+      for various choreographers, theater and dance companies over the past decade, 
+      including Lionel Hoche, Anh Ngoc Nguyen, Adrienn Hód, Csaba Molnár, 
+      EnKnapGroup, Club Guy and Roni, Dollardaddy’s, SNG Nova Gorica, Theater Glej 
+      and Nature Theater of Oklahoma among others. He taught at the Budapest 
+      Theater Acting Academy (Pesti Magyar Színiakadémia) and shares a Zupancic 
+      Award with EnKnapGroup for outstanding work and impact on the Slovenian 
+      dance scene. Bence’s work consists of a mixture of personal stories and other 
+      found materials transformed through humor and theatrical devices, aimed to 
+      generate events that fully connects and pushes the limits of all the participants 
+      present`,
     ],
   };
 
@@ -14,6 +33,26 @@ export class DataService {
     {
       year: 2023,
       events: [
+        {
+          play: 'Nature Theater of Oklahoma - Burt Turrido. An Opera',
+          venue: 'Prague Crossroads Festival (CZ)',
+          date: '16-17 Nov. 2023',
+        },
+        {
+          play: 'Hodworks & Dollardaddy’s - Kabaré',
+          venue: 'Trafó House of Contemporary Arts, BUDAPEST (HU)',
+          date: '8 Oct. 2023',
+        },
+        {
+          play: 'Dollardaddy’s - Blue Lagoon',
+          venue: 'Trafó House of Contemporary Arts, BUDAPEST (HU)',
+          date: '23 Sept. 2023',
+        },
+        {
+          play: 'Bence Mezei - DRACULA AND THE GIRL AND THE GLOOMY FOREST',
+          venue: 'Monoplay Festival, Zadar (HR)',
+          date: '25 Aug. 2023',
+        },
         {
           play: 'Hodworks & Dollár Papa Gyermekei - Kabaré',
           venue: 'A Harmadik Hely, BUDAPEST (HU)',
@@ -223,6 +262,7 @@ export class DataService {
       label: 'DRACULA_AND_THE_GIRL_AND_THE_GLOOMY_FOREST',
       title: 'DRACULA AND THE GIRL AND THE GLOOMY FOREST ',
       subtitle: 'An Epic Solo Horror Musical In Three Acts ',
+      video: 'https://player.vimeo.com/video/831643203?h=246641ab7b',
       images: [
         {
           path: 'assets/pictures/dracula_41.jpg',
@@ -257,6 +297,7 @@ export class DataService {
       label: 'BUNBEESES_22',
       title: 'BŰNBEESÉS ‘22',
       subtitle: 'Egzisztenciális Sci-Fi Mesejáték Két Részben',
+      video: 'https://player.vimeo.com/video/745315392?h=2294722e3d',
       images: [
         {
           path: 'assets/pictures/bunbeeses_ea_WEB_054.jpg',
@@ -341,8 +382,8 @@ export class DataService {
     {
       id: 5,
       label: 'UTOPIA_NOW',
-      title: 'UTOPIANOW (in a search for a beautiful life) ',
-      subtitle: '',
+      title: 'UTOPIANOW (in a search for a beautiful life)',
+      subtitle: 'UTOPIANOW (in a search for a beautiful life)',
       images: [
         {
           path: 'assets/pictures/Utopia-now1.jpg',
@@ -369,11 +410,63 @@ export class DataService {
 
   collaborations = [
     {
+      id: 6,
+      label: 'DOLLARDADDY_S',
+      title: 'Blue Lagoon',
+      subtitle: 'DOLLARDADDY’S',
+      video: '',
+      images: [
+        {
+          path: 'assets/pictures/blue_lagoon.jpg',
+          photographer: '',
+        },
+      ],
+      paragraphs: [
+        `Where does the capricious sea take the small boat with its shipwrecked passengers, the angelic eight-year-old girl and the intelligent, clever nine-year-old boy? In his 1908 novel, Henry De Vere Stacpoole to an an uninhabited but exotic island under the Southern Cross. `,
+        `The image of the noble savage is a sentimental, romantic view that spans several cultural epochs, a search for a way out for man, who has been deprived of civilisation. A hope to find happiness again. The Rousseauian idea of "back to nature" can easily captivate anybody. According to him man is inherently good but corrupted by society. Is it that simple? `,
+      ],
+      credits: [
+        'Actors: Dániel György Brezovszky, Zsombor Kövesi, Bence Mezei, Dániel Pásztor',
+        'Intimacy Trainer: Adrienn Hód and Tamás Ördög ',
+        'Director: Tamás Ördög',
+        '',
+        'Supported by: EMMI, Trafó  ',
+      ],
+    },
+    {
+      id: 7,
+      label: 'Hodworks_Dollardaddy_s',
+      title: 'Kabaré',
+      subtitle: 'Hodworks & Dollardaddy’s',
+      video: 'https://www.youtube.com/embed/tC1A5x-eZso',
+      images: [
+        {
+          path: 'assets/pictures/KABARE.jpg',
+          photographer: '',
+        },
+      ],
+      paragraphs: [
+        `A közönség minden este megtölti a kabarét. A kabaré kedvelt társasági szórakozóhely. A kabaréban sokszor van politikai humor is.`,
+        `kabaré (főnév)`,
+        `1. Gyakran humoros élő szórakoztató műsor; egyetlen szereplős műsorszámokat, tréfákat, rövid jeleneteket tartalmazó, és rendszerint a műsorközlő szövegével összekötött műsor. A kabarén jól szórakozik a közönség. Szilveszterkor a televízió is közvetít kabarét. A kabaréban sokszor van politikai humor is.`,
+        `2. Színház, ahol rendszeresen játszanak humoros műsort; egy kisebb helyiségben, épületben széksorok előtt felállított ilyen színpad. A közönség minden este megtölti a kabarét. A kabaré kedvelt társasági szórakozóhely.`,
+        `3. Átvitt értelemben: Nevetséges jelenet, ami szokatlan furcsaságával elutasítást is kiválthat. Az igazgató irodájában kialakult helyzet inkább egy kabaré lett, mint üzleti tárgyalás. Kész kabaré lett, ahogy a két vezető veszekedett.`,
+      ],
+      credits: [
+        'Előadók: Jenna Jalonen, Katona Péter Dániel e.h., Kiss-Végh Emőke, Mezei Bence, Molnár Csaba és Terhes Sándor',
+        'A rendező munkatársa: Molnár D. Márk ',
+        'Jelmez: Németh Anikó / MANIE',
+        'Koreográfus: Hód Adrienn',
+        'Rendező: Ördög Tamás',
+        'Támogatók: EMMI, OFF Alapítvány, Inversedance Stúdió - Fodor Zoltán Társulat ',
+      ],
+    },
+    {
       id: 1,
       label: 'Burt_Turrido',
-      title: 'NATURE THEATER OF OKLAHOMA ',
-      subtitle: 'Burt Turrido: An Opera. ',
-      video: '',
+      title: 'Burt Turrido: An Opera.',
+      subtitle: 'NATURE THEATER OF OKLAHOMA',
+      video: 'https://player.vimeo.com/video/570377787?h=8978cfc553',
       images: [
         {
           path: 'assets/pictures/Burt_Turrido.jpg',
@@ -404,10 +497,10 @@ export class DataService {
     {
       id: 2,
       label: 'No_President',
-      title: 'NATURE THEATER OF OKLAHOMA ',
-      subtitle:
+      title:
         'No President - A Story Ballet of Enlightenment in Two Immoral Acts',
-      video: '',
+      subtitle: 'NATURE THEATER OF OKLAHOMA ',
+      // video: 'https://player.vimeo.com/video/290019221?h=7e4eaae448',
       images: [
         {
           path: 'assets/pictures/No-President1.jpg',
@@ -415,6 +508,10 @@ export class DataService {
         },
         {
           path: 'assets/pictures/No-President2.JPG',
+          photographer: '',
+        },
+        {
+          path: 'assets/pictures/president.jpeg',
           photographer: '',
         },
       ],
@@ -474,8 +571,8 @@ export class DataService {
     {
       id: 4,
       label: 'KAROLINE_UND_KASIMIR',
-      title: 'NATURE THEATER OF OKLAHOMA: ',
-      subtitle: 'KAROLINE UND KASIMIR – NOLI ME TANGERE ',
+      title: 'KAROLINE UND KASIMIR – NOLI ME TANGERE',
+      subtitle: 'NATURE THEATER OF OKLAHOMA:',
       video: 'https://www.youtube.com/embed/SkSlzfny7rA',
       images: [
         {
@@ -498,8 +595,8 @@ export class DataService {
     {
       id: 5,
       label: 'pursuit_of_happiness',
-      title: 'NATURE THEATER OF OKLAHOMA ',
-      subtitle: 'Pursuit of Happiness ',
+      title: 'Pursuit of Happiness',
+      subtitle: 'NATURE THEATER OF OKLAHOMA',
       video: 'https://player.vimeo.com/video/193170347?h=cc50f6407f',
       images: [
         {

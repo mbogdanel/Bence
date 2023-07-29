@@ -11,18 +11,23 @@
   </div>
   <div class="row work-card mb-5">
     <div class="card mt-3 border-0">
-      <div *ngFor="let picture of work.images; let i = index">
-        <img
-          src="{{ picture.path }}"
-          class="card-img-top img-fluid mt-2 work-image pb-3"
-          alt="..."
-        />
-        <p *ngIf="picture.photographer" class="photo-credit m-auto mt-2">
-          Photo by {{ picture.photographer }}
-        </p>
-      </div>
-
       <div class="card-body">
+        <div class="image-container">
+          <div *ngFor="let picture of work.images; let i = index">
+            <img
+              src="{{ picture.path }}"
+              class="card-img-top img-fluid work-image pb-3"
+              alt="..."
+            />
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-end">
+          <p *ngIf="work.images[0].photographer" class="photo-credit me-2">
+            Photo by {{ work.images[0].photographer }}
+          </p>
+        </div>
+
         <p class="card-text" *ngFor="let paragraph of work.paragraphs">
           {{ paragraph }}
         </p>
