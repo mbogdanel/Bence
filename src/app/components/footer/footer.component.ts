@@ -33,7 +33,7 @@ export class FooterComponent implements OnInit {
         } else this.home = false;
       }
 
-      console.log(this.currentRoute);
+      // console.log(this.currentRoute);
     });
   }
 
