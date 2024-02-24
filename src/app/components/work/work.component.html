@@ -22,25 +22,27 @@
           </div>
         </div>
 
-        <div class="d-flex justify-content-end">
-          <p *ngIf="work.images[0].photographer" class="photo-credit me-2">
-            Photo by {{ work.images[0].photographer }}
+        <div class="text-content">
+          <div class="d-flex justify-content-end">
+            <p *ngIf="work.images[0].photographer" class="photo-credit me-2">
+              Photo by {{ work.images[0].photographer }}
+            </p>
+          </div>
+
+          <p class="card-text" *ngFor="let paragraph of work.paragraphs">
+            {{ paragraph }}
           </p>
+          <h5 class="card-title"><strong>Credits</strong></h5>
+
+          <ul class="list-group list-group-flush li-credit">
+            <li
+              *ngFor="let credit of work.credits"
+              class="list-group-item li-credit"
+            >
+              {{ credit }}
+            </li>
+          </ul>
         </div>
-
-        <p class="card-text" *ngFor="let paragraph of work.paragraphs">
-          {{ paragraph }}
-        </p>
-        <h5 class="card-title"><strong>Credits</strong></h5>
-
-        <ul class="list-group list-group-flush li-credit">
-          <li
-            *ngFor="let credit of work.credits"
-            class="list-group-item li-credit"
-          >
-            {{ credit }}
-          </li>
-        </ul>
       </div>
     </div>
   </div>

@@ -31,6 +31,21 @@ export class DataService {
 
   calendar = [
     {
+      year: 2024,
+      events: [
+        {
+          play: 'Hodworks & Dollardaddy’s - Kabaré',
+          venue: 'Trafó House of Contemporary Arts, BUDAPEST (HU)',
+          date: '16-17 March. 2024',
+        },
+        {
+          play: 'Dollardaddy’s - Blue Lagoon',
+          venue: 'Trafó House of Contemporary Arts, BUDAPEST (HU)',
+          date: '7 Feb. 2024',
+        },
+      ],
+    },
+    {
       year: 2023,
       events: [
         {
@@ -265,10 +280,6 @@ export class DataService {
         },
       ],
     },
-    // {
-    //   year: 2021,
-    //   events: [],
-    // },
   ];
 
   works = [
@@ -726,6 +737,159 @@ export class DataService {
          March 2016, Rotterdamse Schouwburg, Rotterdam, The Netherlands 
          
          December 2016, Španski Borci Cultural Center, Ljubliana, Slovenia (premiere, and in repertory in 2017) `,
+      ],
+    },
+    {
+      id: 9,
+      label: 'Adrienn_Hod',
+      title: 'Adrienn Hód: PEARL',
+      subtitle: 'EnKnapGroup',
+      images: [
+        {
+          path: 'assets/pictures/Pearl.jpg',
+          photographer: '',
+        },
+      ],
+      paragraphs: [
+        `The material evolved from the persistent physical, verbal and emotional research, involving continously of the reactions, impulses, inputs and experiences of the performers`,
+        `"When are our experiences and sensations legitimate? Many human feelings or states are “forbidden”, not allowed to be shown. Art can be an alibi for all this. On the altar of art you can do things that are forbidden in real life. Thus, art is a game, an alibi that sets us free.” (Adrienn Hód)`,
+        `A hedonistic roller coaster, a production of happiness, a glimpse of moments without shame, foreign bodies in mother-of-pearl, a celebration of its completeness. Pearls and swine.`,
+      ],
+      credits: [
+        'Concept, choreography: Adrienn Hód',
+        'Original cast: EN-KNAP Group (Luke Thomas Dunne (Great Britain), Ana Štefanec (Slovenia), Jeffrey Schoenaers (Belgium), Ida Hellsten (Sweden) and Bence Mezei (Hungary))',
+        'Dramaturgy: Ármin Szabó-Székely / Music/Sound: Zoltán Mizsei / Light Design: Luka Curk / Costume design: Katarina Škaper',
+      ],
+    },
+    {
+      id: 10,
+      label: 'loop_de_loop',
+      title: 'Guy Nader & Maria Campos: LOOP DE LOOP',
+      subtitle: 'EnKnapGroup',
+      images: [
+        {
+          path: 'assets/pictures/loop_de_loop.jpg',
+          photographer: '',
+        },
+      ],
+      paragraphs: [
+        `LOOP DE LOOP, created by the choreographers Guy Nader and Maria Campos with EnKnapGroup dance company continues their previous choreographic principles. It travels into the curved paths of the circularity, dimensions and volumes that exist for a body in space. It searches for a continuous motion and how to alter the direction of that motion, playing withweightlessness and heaviness, body’s centrifugal force and rediscovering new directions for velocity and acceleration to happen. With its constant interest in the joy of repetition, the piece wants to draw our attention to the perception of time, memory and lived experiences, a series of infinite opportunities for time and space to be compared.`,
+      ],
+      credits: [
+        'Concept, choreography: Guy Nader & Maria Campos',
+        'Original cast: EN-KNAP Group (Luke Thomas Dunne (Great Britain), Ana Štefanec (Slovenia), Jeffrey Schoenaers (Belgium), Ida Hellsten (Sweden) and Bence Mezei (Hungary))',
+        'Music: Miguel Marin',
+        'Light Design: Luka Curk ',
+        'Costume design: Katarina Škaper',
+      ],
+    },
+    {
+      id: 11,
+      label: 'phobia',
+      title: 'Guy Weizman, Roni Haver: PHOBIA',
+      subtitle: 'Club Guy & Roni - EnKnapGroup',
+      images: [
+        {
+          path: 'assets/pictures/phobia.jpg',
+          photographer: '',
+        },
+      ],
+      paragraphs: [
+        `These are confusing times. The world seems large, but feels like a village at the same time. World conflicts reach our homes without limitations, causing fear and insecurities. Fear provides protection, but it can also create barriers, and prevent people from taking a step into the unknown. It can be at the root of xenophobia, causing irrational hatred between people and countries.`,
+        `Guy Weizman and Roni Haver will use ‘Phobia’ as a research into the mechanisms of fear, and what happens when you try to keep an open mind despite your fear of the unknown. When you accept the unpredictability of the other and realise that if you don’t want to suffer, you should avoid to inflict pain on others, and meet each other as equals, as people. With ‘Phobia’ Weizman and Haver dive head first into an urgent and up to datetopic.`,
+        `In ‘Phobia’ this strive for humanity and open mindedness plays a central role.`,
+        `“We live in terror because persuasion is no longer possible; (…) Because we live in a world of abstractions, of bureaus and machines, of absolute ideas and of crude messianism. We suffocate among people who think they are absolutely right, whether in their machines or in their ideas. (…) To come to terms, one must understand what fear means: what it implies and what it rejects. It implies and rejects the same fact: a world where murder is legitimate, and where human life is considered trifling.”`,
+      ],
+      credits: [
+        'Directed and choreographed by: Guy Weizman in Roni Haver',
+        'Created and performed by: EnKnapGroup (Luke Thomas Dunne, Ida Hellsten, Bence Mezei, Ana Štefanec, Tamás Tuza, Nik Rajšek) and Club Guy & Roni (Camilo Chapela, Angela Herenda de Kroo, Dunja Jocic, Veerle van Overloop, Adam Peterson)',
+        'Musicians (live): Slagwerk Den Haag (Pepe Garcia, Niels Meliefste, Enric Monfort)',
+        'Music: Hugo Morales, Pepe Garcia',
+        ' Text / Dramaturgy:Martijn de Rijk, Bas Heijne',
+        'Light Design: Wil Frikken',
+        'Costume Design: Slavna Martinovic',
+        'Photo: Ewoud Rooks ',
+        'Oblikovanje: Pek & Veren',
+        '',
+        'Coproducers: EN-KNAP Productions, Club Guy & Roni, Slagwerk Den Haag',
+      ],
+    },
+    {
+      id: 12,
+      label: 'vashava',
+      title: 'Iztok Kovač & Sašo Podgoršek: VASHAVA',
+      subtitle: '',
+      video: 'https://player.vimeo.com/video/85482167?h=91c8d9de94',
+      images: [
+        {
+          path: 'assets/pictures/VASHAVA_1.jpg',
+          photographer: '',
+        },
+      ],
+      paragraphs: [
+        `The workers’ and mining facilities, characterising and changing the Slovenian mining town of Trbovlje for almost two centuries, which have already been captured on camera in the previous films shot by EN-KNAP, have to face uncertain future and the possibility of impending demolition. In this homage by the author Iztok Kovač to his birth town, the international dance company EnKnapGroup confronts the mining facilities for the last time, before they disappear from the collective consciousness forever. The parting is decent: for the last time the members of the group fill these places with vitality and life as they experience it themselves.`,
+      ],
+      credits: [
+        'Choreography: Iztok Kovač',
+        'Created and performed by EnKnapGroup: Luke Thomas Dunne, Ida Katarina Hellsten, Bence Mezei, Ana Štefanec, Tamás Tuza / Guests: Gyula Cserepes, Barbara Kanc, Katja Legin, Lada Petrovski Ternovšek, Ravi Ternovšek',
+        'Photography: Sven Pepeonik',
+        'Set design: Niko Novak',
+        'Costume design: Valter Kobal',
+        'Editing: Sašo Podgoršek',
+        'Sound design: Charo Calvo',
+        'EN-KNAP production team: Meta Lavrič, Iztok Kovač, Sašo Podgoršek',
+        'Produced by: EN-KNAP Productions',
+        'With support: Slovenian Film Fund',
+      ],
+    },
+    {
+      id: 13,
+      label: '8_swings',
+      title: 'Iztok Kovač: OTTETTO (8 SWINGS FOR HIS HIGHNESS)',
+      subtitle: 'EnKnapGroup',
+      images: [
+        {
+          path: 'assets/pictures/OTTETTO_1__foto.miha.fras_041.JPG',
+          photographer: 'Miha Fras',
+        },
+      ],
+      paragraphs: [
+        `The ’dance concert’ OTTETTO (8 Swings for His Highness) is built around Octet, a 16-minute musical delicacy by Igor Stravinsky from 1923, a purely structural composition void of any narrative meanings, which the composer himself called “dry, cold and transparent, like an ’extra dry’ champagne”. OTTETTO by Iztok Kovač choreographically decomposes analyses and then reconstructs and visualises this exceptional musical work.`,
+        `The choreographer explores from various angles and standpoints the extant relationships of the artists involved with this composition. The performance thus yields the responses of the conductor, the eight musicians, the five dancers and the team of visual artists.`,
+        `Along with the lively joint sequences these dissimilar responses are an expansion of the anticipated execution of the original work, which now has an 8-part structure for 14 performers.`,
+        `In Octet, which is scored in the classical sonata cycle form for an unusual combination of woodwind and brass instruments, Stravinsky, peculiarly, employed the technical means of baroque and classicistic music. The more contemporary harmonies and rhythmic complexity introduce an effect of Verfremdung (Alienation) to the polyphonic technique, and also herald the beginning of neoclassicism in the music history.`,
+        `The movement of the dancers, the international company EnKnapGroup, is marked by a specific vocabulary derived from the analyses of parts for each individual instrument inStravinsky’s Octet, which both emphasises the abstract structure of the composition and renders it alien. The movement is frequently subjected to a strict periodic rhythm of the metronome, which refers to the presence of the maestro. In OTTETTO the composition can be metaphorically seen as a musical work scored for theatre (though of course this was not the case).`,
+        `Octet by Stravinsky, which was received with general dismay and considered a bad joke in his time, in OTTETTO (8 Swings for His Highness) is played live on stage by the Slovenian Branimir Slokar Academy music ensemble, conducted by Živa Ploj Peršuh.`,
+        `OTTETTO, in which visual elements – videography, set and light set design – play a crucial role in its space determination, this musical work and its significance is penetrated by the regard of present-day artists, revealing it as still relevant and contemporary.`,
+      ],
+      credits: [
+        'Concept, choreography: Iztok Kovač',
+        'Created and performed by EnKnapGroup: Luke Thomas Dunne, Ida Hellsten, Bence Mezei, Ana Štefanec, Tamás Tuza',
+        'Music: Igor Stravinsky, Octet, 1923',
+        'Conductor: Živa Ploj Peršuh',
+        'Musicans - Festine Ensemble: Flute: Kaja Lešnjak, Clarinet: Jože Kotar, Bassoon 1: Arpad Balasz Piri, Bassoon 2: Peter Stadler, Trumpet 1: Jure Gradišnik, Trumpet 2: Luka Ipavec, Trombone 1: Mihael Šuler, Trombone 2: David Kajič',
+        'CompositionalAdditions: Gregor Pompe',
+        'Visuals: Komposter ',
+        'Light design: Jaka Šimenc',
+        'Set design: Jaka Šimenc, Komposter, Iztok Kovač',
+        'Costume design: Valter Kobal ',
+        'Costume maker: Katarina Škaper',
+        'Musical consultant: Gregor Pompe',
+        'Composition Allegro con moto: Komposter',
+        'Text selection: Mirta Zajc, Iztok Kovač',
+        'Narration: Luke Thomas Dunne (Slovene and English), Faris Endris Rahoma (German), Žiga Golob (Slovene), Marko Simšič (English), Nada Vodušek (Slovene)',
+        'Texts for evening programme: Mojca Kumerdej, Gregor Pompe, Mirta Zajc',
+        'Technical assistance: Luka Curk, Omar Ismail',
+        'Rehearsal director: Tanja Skok',
+        'Public relations: Marija Zidar',
+        'Design: nejaaka',
+        'Photography: Andrej Lamut, Miha Fras',
+        'Executive producer: Karmen Kerža',
+        'Tour manager: Marjeta Lavrič',
+        'Production: EN-KNAP',
+        'Partner: Društvo ustvarjalcev sodobne slovenske kulture – Delavnica',
+        'Thanks to: Alenka Bagarič, Aljaž Beguš, Honne Dohrmann, Akira Hasegawa, Marjeta Lavrič, Alenka Nahtigal, Drago Ivanuša, Franc Kosem, Tomaž Sevšek, Ravil Sultanov, Julij Zornik, Margareta Weiss',
+        'With support: Ministry of Education, Science, Culture and Sport of the Republic of Slovenia, Municipality of Ljubljana - Department for Culture',
       ],
     },
   ];
