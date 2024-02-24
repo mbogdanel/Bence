@@ -14,14 +14,19 @@
 }
 
 .work-card {
+  border-radius: 1% !important;
   margin-top: 10px;
-  border-left: #ff00ff 2px solid;
+  // border-left: #ff00ff 2px solid;
+  border: #ff00ff 5px solid;
+  box-shadow: 10px 10px #ff00ff;
 }
 
 h6,
-a {
+a,
+p {
   text-decoration: none;
-  color: black;
+  // color: black;
+  color: #fcfd1e;
 }
 
 .photo-credit {
@@ -30,4 +35,5 @@ a {
 
 .card-body {
   padding-top: 0;
+  border-radius: 5%;
 }

@@ -1,16 +1,18 @@
 <div class="container mt-5">
-  <div *ngFor="let year of calendar">
+  <div *ngFor="let year of calendar" class="calendar-container mb-5 p-3">
     <!-- <hr class="hr-year" /> -->
-    <h3>
+    <h3 class="calendar-text">
       <strong>{{ year.year }}</strong>
     </h3>
     <div *ngFor="let event of year.events" class="row">
       <div class="d-flex flex-col">
         <div class="ms-2 me-auto col-9">
-          <div class="fw-bold">{{ event.play }}</div>
-          {{ event.venue }}
+          <div class="fw-bold calendar-text">{{ event.play }}</div>
+          <div class="calendar-text">
+            {{ event.venue }}
+          </div>
         </div>
-        <div class="ms-1 col-3">{{ event.date }}</div>
+        <div class="ms-1 col-3 calendar-text">{{ event.date }}</div>
       </div>
 
       <hr />

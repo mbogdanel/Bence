@@ -34,9 +34,24 @@ export class DataService {
       year: 2023,
       events: [
         {
+          play: 'Hodworks & Dollardaddy’s - Kabaré',
+          venue: 'Trafó House of Contemporary Arts, BUDAPEST (HU)',
+          date: '5-6 Dec. 2023',
+        },
+        {
+          play: 'Dollardaddy’s - Blue Lagoon',
+          venue: 'Trafó House of Contemporary Arts, BUDAPEST (HU)',
+          date: '21 Nov. 2023',
+        },
+        {
           play: 'Nature Theater of Oklahoma - Burt Turrido. An Opera',
           venue: 'Prague Crossroads Festival (CZ)',
           date: '16-17 Nov. 2023',
+        },
+        {
+          play: 'Hodworks & Dollardaddy’s - Kabaré',
+          venue: 'Trafó House of Contemporary Arts, BUDAPEST (HU)',
+          date: '9 Nov. 2023',
         },
         {
           play: 'Hodworks & Dollardaddy’s - Kabaré',
@@ -409,6 +424,41 @@ export class DataService {
   ];
 
   collaborations = [
+    {
+      id: 8,
+      label: 'CRIES_AND_WHISPERS',
+      title: 'INGMAR BERGMAN: CRIES AND WHISPERS',
+      subtitle: 'Örkény Theater & Dollardaddy’s',
+      video: '',
+      images: [
+        {
+          path: 'assets/pictures/CRIES_AND_WHISPERS.jpg',
+          photographer: '',
+        },
+      ],
+      paragraphs: [
+        `Valami arra ösztönöz, hogy egy állapotot kibontsak, életérzésem egyik összetevőjét: a közösség utáni abszurd és csillapíthatatlan vágyakozást, az ügyefogyott próbálkozásokat a távolság és elszigeteltség leküzdésére. Bármennyit tűnődöm is e tervemen, sosem tudom lezárt egésznek tekinteni. Leginkább valami sötét, áradó vízsodrás képzetét kelti bennem: arcok, mozdulatok, hangok, kiáltások, fény és árny, hangulatok, álmok, semmi sem szilárd és teljesen megfogható. Álom, vágy, esetleg csupán reménykedés vagy félelem, melyben épp az iszonyatost nem mondja ki senki.`,
+        `Három nő várja, hogy a negyedik meghaljon.`,
+      ],
+      credits: [
+        'Ágnes: Kiss-Végh Emőke m.v.',
+        'Karin: Csákányi Eszter',
+        'Mária: Bíró Kriszta',
+        'Anna: Takács Nóra Diána',
+        'Doktor: Terhes Sándor',
+        'Fredrik, Karin férje: Csuja Imre',
+        'Joakim, Mária férje: Vajda Milán',
+        'Rendező: Ördög Tamás',
+        'Dramaturg: Ari-Nagy Barbara',
+        'Díszlet: Balázs Juli',
+        'Jelmez: Kiss Tibor',
+        'Testkoordinátor: Mezei Bence',
+        'Szcenikus: Vásárhelyi Márton',
+        'Világítás: Balogh Csaba Andor',
+        'Asszisztens-ügyelő: Kovács Henrietta',
+        'Súgó: Mészáros Csilla',
+      ],
+    },
     {
       id: 6,
       label: 'DOLLARDADDY_S',

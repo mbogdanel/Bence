@@ -49,12 +49,17 @@ a:hover {
 }
 
 nav {
-  background-color: white !important;
+  // background-color: white !important;
+  background-color: #34ff23 !important;
   border-bottom: 2px solid yellow;
 }
 
 .dropdown-menu {
   // background-color: transparent !important;
   border: 2px solid #29c7d7;
-  // background-color: #c1ad94;
+  background-color: #5a4be0;
+}
+
+.dropdown-item {
+  // background-color: red;
 }

@@ -10,7 +10,7 @@
     </div>
   </div>
   <div class="row work-card mb-5">
-    <div class="card mt-3 border-0">
+    <div class="card border-0">
       <div class="card-body">
         <div class="image-container">
           <div *ngFor="let picture of work.images; let i = index">
@@ -33,8 +33,11 @@
         </p>
         <h5 class="card-title"><strong>Credits</strong></h5>
 
-        <ul class="list-group list-group-flush">
-          <li *ngFor="let credit of work.credits" class="list-group-item">
+        <ul class="list-group list-group-flush li-credit">
+          <li
+            *ngFor="let credit of work.credits"
+            class="list-group-item li-credit"
+          >
             {{ credit }}
           </li>
         </ul>
