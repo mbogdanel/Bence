@@ -1,14 +1,3 @@
-@media only screen and (max-width: 1024px) {
-  div.container {
-    width: 100% !important;
-  }
-}
-@media only screen and (max-width: 420px) {
-  .work-card {
-    padding: 0;
-  }
-}
-
 hr {
   border: 10px solid #b30000;
   border-radius: 5px;
@@ -61,6 +50,21 @@ iframe {
   height: 360px;
 }
 
+.photo-credit {
+  font-size: 12px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1024px) {
+  div.container {
+    width: 100% !important;
+  }
+}
+
 // * Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -83,13 +87,7 @@ iframe {
   iframe {
     height: 200px;
   }
-}
-
-.photo-credit {
-  font-size: 12px;
-}
-
-.image-container {
-  display: flex;
-  flex-wrap: wrap;
+  .work-card {
+    padding: 0;
+  }
 }

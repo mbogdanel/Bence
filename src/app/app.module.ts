@@ -9,14 +9,12 @@ import { Navbar2Component } from './components/navbar2/navbar2.component';
 import { AboutComponent } from './pages/about/about.component';
 import { CalendarComponent } from './pages/calendar/calendar.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { WorksPersonalComponent } from './pages/works-personal/works-personal.component';
-import { WorksGuestsComponent } from './pages/works-guests/works-guests.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
-import { WorkPersonalComponent } from './pages/work-personal/work-personal.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { WorkComponent } from './components/work/work.component';
-import { WorkCollaborationComponent } from './pages/work-collaboration/work-collaboration.component';
+import { WorksComponent } from './pages/works/works.component';
+import { CommonModule } from '@angular/common';
+import { WorkComponent } from './pages/work/work.component';
 
 @NgModule({
   declarations: [
@@ -26,15 +24,18 @@ import { WorkCollaborationComponent } from './pages/work-collaboration/work-coll
     AboutComponent,
     CalendarComponent,
     ContactComponent,
-    WorksPersonalComponent,
-    WorksGuestsComponent,
     FooterComponent,
     HomeComponent,
-    WorkPersonalComponent,
     WorkComponent,
-    WorkCollaborationComponent,
+    WorksComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule, FontAwesomeModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NgbModule,
+    FontAwesomeModule,
+    CommonModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

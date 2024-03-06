@@ -26,28 +26,6 @@ li {
   margin: 0 2rem;
 }
 
-@media only screen and (min-width: 1000px) {
-  .links-container {
-    display: flex;
-    justify-content: center;
-  }
-
-  .nav-links {
-    padding-right: 135px;
-  }
-
-  a {
-    font-size: 16px;
-    font-weight: 400;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  a.navbar-brand {
-    margin-left: 10px !important;
-  }
-}
-
 .navbar-toggler {
   width: 47px;
   height: 34px;
@@ -86,4 +64,26 @@ a:hover {
 nav {
   border-bottom: 1px solid yellow;
   background: rgba(218, 189, 181, 0.4) !important;
+}
+
+@media only screen and (min-width: 1000px) {
+  .links-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-links {
+    padding-right: 135px;
+  }
+
+  a {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  a.navbar-brand {
+    margin-left: 10px !important;
+  }
 }

@@ -44,14 +44,16 @@
                   <a
                     data-bs-toggle="collapse"
                     data-bs-target=".navbar-collapse.show"
-                    routerLink="/works-personal"
+                    routerLink="/works"
                     class="dropdown-item text-center"
+                    (click)="setView('personal')"
                     >PERSONAL</a
                   ><a
                     data-bs-toggle="collapse"
                     data-bs-target=".navbar-collapse.show"
-                    routerLink="/works-guests"
+                    routerLink="/works"
                     class="dropdown-item text-center"
+                    (click)="setView('collaborations')"
                     >COLLABORATIONS</a
                   >
                 </div>

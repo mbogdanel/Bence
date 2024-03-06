@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-navbar',
@@ -8,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
   active = 1;
 
-  constructor() {}
+  constructor(private dataService: DataService) {}
 
   ngOnInit(): void {}
+
+  setView(view: string) {
+    this.dataService.view.next(view);
+  }
 }

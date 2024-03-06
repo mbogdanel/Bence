@@ -1,6 +1,5 @@
 <div class="container mt-5">
   <div *ngFor="let year of calendar" class="calendar-container mb-5 p-3">
-    <!-- <hr class="hr-year" /> -->
     <h3 class="calendar-text">
       <strong>{{ year.year }}</strong>
     </h3>
@@ -14,7 +13,6 @@
         </div>
         <div class="ms-1 col-3 calendar-text">{{ event.date }}</div>
       </div>
-
       <hr />
     </div>
   </div>

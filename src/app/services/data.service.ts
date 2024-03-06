@@ -1,9 +1,12 @@
 import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
 })
 export class DataService {
+  view = new BehaviorSubject('personal');
+
   aboutPage = {
     paragraphs: [
       `Bence Mezei is a dancer, performer and theater maker based in Budapest, 

@@ -8,11 +8,6 @@ body {
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
-
-  // background-color: #5a4be0;
-  // background-color: #34ff23;
-  // background-color: #e02fd8;
-  // background-color: #fcfd1e;
 }
 
 app-root {
@@ -35,7 +30,6 @@ li,
 .calendar-text {
   text-decoration: none;
   color: #fcfd1e;
-  // background-color: #5a4be0 !important;
 }
 
 .li-credit {
@@ -54,17 +48,22 @@ li,
 .calendar-container {
   background-color: #5a4be0;
   border-radius: 1% !important;
-  border: #ff00ff 3px solid;
   box-shadow: 5px 5px #ff00ff;
 }
 
 .work-card {
   border-radius: 1% !important;
-  border: #ff00ff 3px solid;
+  // border: #ff00ff 3px solid;
   box-shadow: 5px 5px #ff00ff;
   padding: 0 !important;
 }
 
 .li-credit {
   color: #fcfd1e !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 90% !important;
+  }
 }
