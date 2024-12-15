@@ -25,16 +25,14 @@ export class FooterComponent implements OnInit {
   home = false;
 
   constructor(router: Router) {
-    router.events.subscribe((url: any) => {
-      if (url.url) {
-        this.currentRoute = url.url;
-        if (this.currentRoute === '/home') {
-          this.home = true;
-        } else this.home = false;
-      }
-
-      // console.log(this.currentRoute);
-    });
+    // router.events.subscribe((url: any) => {
+    //   if (url.url) {
+    //     this.currentRoute = url.url;
+    //     if (this.currentRoute === '/home') {
+    //       this.home = true;
+    //     } else this.home = false;
+    //   }
+    // });
   }
 
   ngOnInit(): void {}

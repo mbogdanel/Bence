@@ -2,7 +2,8 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-  font-family: "Courier Prime", monospace !important;
+  // font-family: "Courier Prime", monospace !important;
+  font-family: "PT Mono", monospace !important;
 
   display: flex;
   min-height: 100vh;
@@ -15,7 +16,7 @@ app-root {
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #34ff23;
+  background-color: #008847;
 }
 
 .card {

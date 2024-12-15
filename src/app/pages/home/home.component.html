@@ -3,7 +3,9 @@
 <!-- <div class="container2 w-100"></div> -->
 
 <div class="container home-container">
-  <div class="row title mb-5"><h3>dancer, performer, theater maker</h3></div>
+  <div class="row title my-5">
+    <h3><strong>dancer, performer, theater maker</strong></h3>
+  </div>
   <div class="row">
     <div class="col-sm-8 column1">
       <p>
@@ -40,17 +42,19 @@
       </p>
 
       <p>
-        Bence’s work consists of a mixture of personal stories and other found
-        materials, transformed through theatrical devices, aimed to generate
-        events that push the limits of all the participants present.
+        Bence’s work consists of a blend of various aesthetics, ready made and
+        found material; a mixture of personal stories combined with humor and
+        popular culture, which he transforms through theatrical devices and
+        plane hard work into a live experience aimed to generate a challenging
+        event that pushes the limits of all the participants present.
       </p>
     </div>
     <div class="col-sm-4 column2">
-      <img
-        class="p-3 card-img-top image-fluid"
-        src="assets/pictures/home_page_2022_photo-andrejlamut_WEB-9.jpg"
-        alt="image"
-      />
+      <img class="p-3 card-img-top image-fluid" [src]="imageSrc" alt="image" />
     </div>
+  </div>
+
+  <div class="my-5">
+    <a (click)="openCV()" type="button" class="btn btn-cv"> more </a>
   </div>
 </div>

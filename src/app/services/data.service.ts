@@ -37,6 +37,41 @@ export class DataService {
       year: 2024,
       events: [
         {
+          play: `Nature Theater of Oklahoma - No President`,
+          venue: `NYU Skirball Center, New York (USA) `,
+          date: `5-7 Dec. 2024`,
+        },
+        {
+          play: `Bence Mezei - DRACULA AND THE GIRL AND THE GLOOMY FOREST`,
+          venue: `Gledalisce Glej, Ljubljana (SI)`,
+          date: `20-21 Nov. 2024`,
+        },
+        {
+          play: `Hodworks & Dollardaddy’s - Kabaré`,
+          venue: `Trafó House of Contemporary Arts, BUDAPEST (HU) `,
+          date: `4 Nov. 2024`,
+        },
+        {
+          play: `Proton Theatre - Parallax`,
+          venue: `Odéon-Théâtre de l’Europe – Ateliers Berthier, Paris (FR)`,
+          date: `10-12 Oct. 2024`,
+        },
+        {
+          play: `Hodworks & Dollardaddy’s - Kabaré`,
+          venue: `Trafó House of Contemporary Arts, BUDAPEST (HU) `,
+          date: `18-19 Sept. 2024`,
+        },
+        {
+          play: `Nature Theater of Oklahoma - Work in process sharing of No President`,
+          venue: `RIMI/IMIR Scenekunst, STAVANGER (NOR) `,
+          date: `26 July 2024`,
+        },
+        {
+          play: `Dollardaddy’s - Blue Lagoon`,
+          venue: `Trafó House of Contemporary Arts, BUDAPEST (HU) `,
+          date: `14 May 2024`,
+        },
+        {
           play: 'Hodworks & Dollardaddy’s - Kabaré',
           venue: 'Trafó House of Contemporary Arts, BUDAPEST (HU)',
           date: '16-17 March. 2024',
@@ -439,6 +474,30 @@ export class DataService {
 
   collaborations = [
     {
+      id: 9,
+      label: `ROMANTIKA`,
+      title: `ROMANCE`,
+      subtitle: `Kiss-Végh Emőke`,
+      video: ``,
+      images: [
+        {
+          path: `assets/pictures/romantika.jpg`,
+          photographer: `Horváth Judit`,
+        },
+      ],
+      paragraphs: [
+        `When there is no way to progress any further, when we can’t stand ourselves, and even the world seems insufficient, and we ourselves are insufficient for the world, then we start talking. Certainly in this piece. Six people sharing a special private evening that even they don’t know how will end for them. Why did they come? Because they are bored. They trust that there will be no rules of behaviour, fear, or expectations here. And maybe no loneliness either.`,
+      ],
+      credits: [
+        `Text and Direction: Kiss-Végh Emőke m.v.`,
+        ` Assistant director: Mezei Bence`,
+        `Light: Balogh Csaba Andor`,
+        `Assistant, stage manager: Veres Emőke`,
+        ` Prompter: Sütő Anikó`,
+        `Performed by: Brezovszky Dániel m.v., Kerekes Éva, Nagy Zsolt, Novkov Máté, Patkós Márton, Zsigmond Emőke`,
+      ],
+    },
+    {
       id: 8,
       label: 'CRIES_AND_WHISPERS',
       title: 'INGMAR BERGMAN: CRIES AND WHISPERS',
@@ -733,7 +792,7 @@ export class DataService {
          
          October 2017 Steirischer Herbst Festival, Graz, Austria 
          
-         September 2017, Nitra Festival, Nitra, Slovak Republic 
+         September 2017, Nitra Festival, Nitra, Slovak Republic  
          
          August 2017, Mladi Levi Festival, Španski Borci Cultural Center, Ljubliana, Slovenia 
          
