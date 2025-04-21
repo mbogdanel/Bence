@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
   }
 
   openCV = () => {
-    window.open('/assets/pdfs/bence_mezei_cv_24.pdf', '_blank');
+    window.open('/assets/pdfs/bence_mezei_cv_25.pdf', '_blank');
   };
 
   @HostListener('window:resize', ['$event'])
@@ -25,10 +25,9 @@ export class HomeComponent implements OnInit {
 
   private updateImageSrc(): void {
     if (window.innerWidth <= 768) {
-      this.imageSrc = 'assets/pictures/hero.jpg';
+      this.imageSrc = 'assets/pictures/bio.jpg';
     } else {
-      this.imageSrc =
-        'assets/pictures/home_page_2022_photo-andrejlamut_WEB-9.jpg';
+      this.imageSrc = 'assets/pictures/bio.jpg';
     }
   }
 }

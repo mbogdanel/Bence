@@ -353,14 +353,13 @@ export class DataService {
         'Sound: Nohemi Barriuso ',
         'Production Support: Barbara Poček, Glej Theatre ',
         'Co-production: Glej Theatre ',
-        'Support: Municipality of Ljubljana ',
       ],
     },
     {
       id: 2,
       label: 'BUNBEESES_22',
-      title: 'BŰNBEESÉS ‘22',
-      subtitle: 'Egzisztenciális Sci-Fi Mesejáték Két Részben',
+      title: `’22 THE FALL OF MAN`,
+      subtitle: 'An Existential Sci-fi Fairy Tale in Two Parts',
       video: 'https://player.vimeo.com/video/745315392?h=2294722e3d',
       images: [
         {
@@ -378,17 +377,19 @@ export class DataService {
       ],
 
       paragraphs: [
-        'Az előadás valós személyekkel, munkatársakkal, barátokkal folytatott interjúbeszélgetések tartalmát és szövegeit verbatim felhasználva formálja meg saját verzióját a híres bűnbeesés történetnek. Keretbe foglalja korunk társadalmának elidegenedő, összeomló kultúrájának lehetséges okait, valamint belső és külső tényezők által felmerülő egzisztenciális aggodalmakra keres alternatívákat. A színház, tánc, sci-fi, szappanopera, némafilm és mesejáték formavilágából merít és így hozza létre nyelvezetét, melyben nem a paradicsomi tökéletes, inkabb az e-világi tökéletlen, a hétköznapi kerül piedesztálra. Csapongó, laikus gondolatok, elrugaszkodott feltevések és naiv elképzelések dialógusai szövik át az első emberpár ominózus történetének cselekményét – ahol Éva hős, Ádám harcos álmodozó, és a Kígyó helyett egy UFO kísért – a közöny betegítő érzésétől, a színház funkcióján át, földünk aggasztó helyzetéig. ',
+        'The performance shapes its own version of the famous Genesis story, the fall of man using verbatim texts and content from interviews conducted with colleagues and friends. It frames possible causes of the alienation and collapse of contemporary society and explores alternatives to existential concerns arising from both internal and external factors.',
+        'Drawing inspiration from the visual worlds of theater, dance, sci-fi, soap opera, silent film, and fairy tales, it creates a unique language in which not the paradisiacal perfection, but rather the imperfection of this world — the mundane — is placed on a pedestal.',
+        'The narrative of the first human couple’s infamous story is interwoven with dialogues filled with erratic thoughts, bold assumptions, and naïve ideas — where Eve is the hero, Adam is a dreamer, and instead of a Snake, an alien UFO plays the role of the tempter. The performance reflects on themes ranging from the sickening feeling of indifference to the function of theater and the alarming state of our planet.',
       ],
       credits: [
-        'Előadók: Tóth Bogi, Takács Lacek, Horváth Sándor ',
-        'Jelmez/látvány: Pintér Áron ',
-        'Háttér festő: Fábian Rita Bernadett ',
-        'Fény: Molnár Péter ',
-        'Hang: Nándori Hanna ',
-        'Szöveg, koreográfia, rendezés: Mezei Bence ',
-        'Az elhangzó szövegek interjú beszélgetéseinek alanyai: Tóth Bogi, Lality Áron, Zsíros László ',
-        'Hossz: 60 perc  ',
+        'Performers: Tóth Bogi, Takács Lacek, Horváth Sándor',
+        'Costume/Set Design: Pintér Áron',
+        'Background Painter: Fábián Rita Bernadett',
+        'Lighting: Molnár Péter',
+        'Sound: Nándori Hanna',
+        'Text, Choreography, Direction: Mezei Bence',
+        'Interview Subjects for the Spoken Texts: Tóth Bogi, Lality 	Áron, Zsíros László',
+        'Duration: 60 minutes',
       ],
     },
     {
@@ -473,6 +474,33 @@ export class DataService {
   ];
 
   collaborations = [
+    {
+      id: 14,
+      label: `AMOUR_TESTAN`,
+      title: `MICHAEL HANEKE: AMOUR`,
+      subtitle: `Örkény István Theater & Dollardaddy’s`,
+      video: ``,
+      images: [
+        {
+          path: `assets/pictures/amour.jpg`,
+          photographer: `Horváth Judit`,
+        },
+      ],
+      paragraphs: [
+        `One of the greatest filmmakers of our time and, not incidentally, a personal favourite of mine, Michael Haneke unsettles audiences with his hyperrealist films that at first glance can seem cold and cruel. If we can bring ourselves to watch his works carefully, allowing ourselves as viewers to be absorbed, then we will come to see that they are not at all about provocation, but more of an extremely strong desire to communicate and share an infinite store of knowledge about people and human relationships. And empathy. For everyone, even the most vulnerable. In the Oscar- and Palme d'Or-winning Amour, we get a glimpse into the love between an elderly husband and wife in super close-up, with all of its layers, beauty, and pain refracted through the lens of a debilitating illness.`,
+      ],
+      credits: [
+        `Director: Ördög Tamás`,
+        'Dramaturg: Törley-Havas Sára',
+        'Set and costume designer: Izsák Lili',
+        'Világítás tervező: Oláh Attila',
+        'Movement coordinator: Mezei Bence',
+        'Assistant: Laky Diána',
+        'Stage manager: Sós Eszter',
+        'Prompter: Horváth Éva`',
+        `Performed by: Pogány Judit, Gálffi László, Kiss-Végh Emőke m.v., Vajda Milán, Ficza István, Bíró Kriszta, Terhes Sándor, Brezovszky Dániel m.v., Kiss Nikolett m.v.`,
+      ],
+    },
     {
       id: 9,
       label: `ROMANTIKA`,
