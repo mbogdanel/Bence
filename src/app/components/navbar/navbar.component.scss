@@ -1,6 +1,8 @@
 .navbar {
   background-color: transparent;
   border-bottom: 2px solid var(--primary-color);
+  position: relative;
+  z-index: 10;
 }
 
 .nav-item {
@@ -54,6 +56,58 @@ a:hover {
   }
   a {
     font-size: 16px;
+  }
+}
+
+:host-context(.contact-page) {
+  .navbar {
+    background-color: transparent;
+  }
+
+  .nav-link,
+  .navbar-brand h3,
+  .dropdown-toggle {
+    color: #fff;
+  }
+
+  .name {
+    border-color: #fff;
+    background-color: transparent;
+  }
+
+  .line {
+    background-color: #fff;
+  }
+
+  .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: #fff;
+
+    .dropdown-item {
+      color: #fff;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .navbar-collapse {
+      background-color: rgba(0, 0, 0, 0.9);
+      margin: 0 -12px;
+      padding: 1rem;
+
+      .nav-link,
+      .dropdown-toggle {
+        color: #fff;
+      }
+
+      .dropdown-menu {
+        background-color: transparent;
+        border-color: #fff;
+
+        .dropdown-item {
+          color: #fff;
+        }
+      }
+    }
   }
 }
 
