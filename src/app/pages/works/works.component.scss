@@ -1,50 +1,22 @@
-hr {
-  border: 10px solid #b30000;
-  border-radius: 5px;
-}
-
-.card-body {
-  margin-top: 10px;
-  border-left: black 2px solid;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0;
+  list-style: none;
   margin: 0;
 }
 
-.header {
-  text-align: center;
-  padding: 32px;
+.image-container {
+  aspect-ratio: 9/6;
+  width: 100%;
 }
 
-.image-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-
-.image-gallery > li {
-  flex-basis: 550px;
-  min-width: 15%;
-  max-width: 30%;
-}
-
-.image-gallery li img {
-  object-fit: cover;
+.image-container img {
   width: 100%;
   height: 100%;
-  vertical-align: middle;
-  border-radius: 5px;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 .overlay {
@@ -55,50 +27,31 @@ ul {
   top: 0;
   left: 0;
   transform: scale(0);
-  transition: all 0.2s 0.1s ease-in-out;
+  transition: all 0.2s ease-in-out;
   color: #fff;
-  border-radius: 5px;
-  /* center overlay text */
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* hover */
-.image-gallery li:hover .overlay {
-  transform: scale(1);
-}
-
-.image-gallery > li {
-  /* ... */
+.image-gallery li {
   position: relative;
   cursor: pointer;
 }
 
-.image-container {
-  aspect-ratio: 9/6;
+.image-gallery li:hover .overlay {
+  transform: scale(1);
 }
 
-@media only screen and (max-width: 420px) {
-  .work-card {
-    padding: 0;
+@media screen and (max-width: 992px) {
+  .image-gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .image-gallery > li {
-    flex-basis: 550px;
-    min-width: 100%;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  div.container {
-    width: 100% !important;
-  }
-}
-@media only screen and (max-width: 420px) {
-  .work-card {
-    padding: 0;
+@media screen and (max-width: 576px) {
+  .image-gallery {
+    grid-template-columns: 1fr;
   }
 }

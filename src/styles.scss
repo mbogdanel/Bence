@@ -1,14 +1,22 @@
-/* Importing Bootstrap SCSS file. */
 @import "~bootstrap/scss/bootstrap";
 
-body {
-  // font-family: "Courier Prime", monospace !important;
-  font-family: "PT Mono", monospace !important;
+:root {
+  --primary-color: #c59566;
+  --text-color: #000;
+  --bg-color: #fff;
+  --accent-color: #yellow;
+}
 
+html * {
+  font-family: "PT Mono", monospace;
+}
+body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+  color: var(--text-color);
+  background-color: var(--bg-color);
 }
 
 app-root {
@@ -16,11 +24,11 @@ app-root {
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #008847;
+  background-color: var(--bg-color);
 }
 
 .card {
-  background-color: #5a4be0 !important;
+  background-color: var(--bg-color);
 }
 
 h6,
@@ -30,41 +38,31 @@ h5,
 li,
 .calendar-text {
   text-decoration: none;
-  color: #fcfd1e;
-}
-
-.li-credit {
-  background-color: #5a4be0 !important;
+  color: var(--text-color);
 }
 
 .navbar-inner {
-  background: transparent;
-  background: #34ff23;
+  background: var(--bg-color);
 }
 
 .container {
-  width: 70% !important;
+  width: 70%;
 }
 
 .calendar-container {
-  background-color: #5a4be0;
-  border-radius: 1% !important;
-  box-shadow: 5px 5px #ff00ff;
+  background-color: var(--bg-color);
+  border-radius: 4px;
+  box-shadow: 5px 5px var(--primary-color);
 }
 
 .work-card {
-  border-radius: 1% !important;
-  // border: #ff00ff 3px solid;
-  box-shadow: 5px 5px #ff00ff;
-  padding: 0 !important;
-}
-
-.li-credit {
-  color: #fcfd1e !important;
+  border-radius: 4px;
+  box-shadow: 5px 5px var(--primary-color);
+  padding: 0;
 }
 
 @media only screen and (max-width: 1024px) {
   .container {
-    width: 90% !important;
+    width: 90%;
   }
 }

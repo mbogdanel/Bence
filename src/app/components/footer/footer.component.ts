@@ -22,17 +22,17 @@ export class FooterComponent implements OnInit {
   faVimeo = faVimeo;
 
   currentRoute: string;
-  home = false;
+  showFooter = true;
 
   constructor(router: Router) {
-    // router.events.subscribe((url: any) => {
-    //   if (url.url) {
-    //     this.currentRoute = url.url;
-    //     if (this.currentRoute === '/home') {
-    //       this.home = true;
-    //     } else this.home = false;
-    //   }
-    // });
+    router.events.subscribe((url: any) => {
+      if (url.url) {
+        this.currentRoute = url.url;
+        if (this.currentRoute === '/contact') {
+          this.showFooter = false;
+        } else this.showFooter = true;
+      }
+    });
   }
 
   ngOnInit(): void {}
