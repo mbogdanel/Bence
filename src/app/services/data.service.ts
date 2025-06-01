@@ -34,6 +34,31 @@ export class DataService {
 
   calendar = [
     {
+      year: 2025,
+      events: [
+        {
+          play: `Nature Theater of Oklahoma - No President`,
+          venue: `Southbank Centre, London (GBR)`,
+          date: `9-10-11 July 2025`,
+        },
+        {
+          play: `Dollardaddy’s - Blue Lagoon`,
+          venue: `Trafó House of Contemporary Arts, BUDAPEST (HU)`,
+          date: `24 May 2025`,
+        },
+        {
+          play: `Hodworks & Dollardaddy’s - Kabaré`,
+          venue: `Trafó House of Contemporary Arts, BUDAPEST (HU)`,
+          date: `23 April 2025`,
+        },
+        {
+          play: `Dollardaddy’s - Blue Lagoon`,
+          venue: `Trafó House of Contemporary Arts, BUDAPEST (HU)`,
+          date: `28-29 February 2025`,
+        },
+      ],
+    },
+    {
       year: 2024,
       events: [
         {
@@ -474,6 +499,32 @@ export class DataService {
   ];
 
   collaborations = [
+    {
+      id: 15,
+      label: 'A_POTENTIAL_PERFORMANCE',
+      title: 'A POTENTIAL PERFORMANCE',
+      subtitle: 'Urška Brodar, Mel Krodman, Eva Nina Lampič',
+      video: 'https://player.vimeo.com/video/544561737',
+      images: [
+        {
+          path: 'assets/pictures/A_POTENTIAL_PERFORMANCE.jpg',
+          photographer: 'Dani Modrej',
+        },
+      ],
+      paragraphs: [
+        `A Potential Performance is a description of a performance that never occurs.`,
+
+        `It consists of three sections: (A) a scripted part, (B) an improvised part and (C) a short scripted ending. In (A) the performers talk to the audience, using deliberately vague language, avoiding the use of gender and by that questioning audiences’ biases ascribed to certain roles in society, and leaving space to imagine their own imagined reality. In (B) the audience talk back to the performers, reflecting on (A), sharing their perspectives, exchange different points of view, and put them side by side. Then (C), an advancement of the first section, gives the audiences an opportunity for a reinvestigation of their methods of thinking.`,
+
+        `A Potential Performance explores how our minds fill in the missing parts based on personal contexts, knowledge, and circumstances. In this way cultural, political and gender biases are revealed, and the audience members are offered to question their own perception and the prejudices they hold, which impact the way they view the world.`,
+      ],
+      credits: [
+        'Devised and performed by: Urška Brodar, Mel Krodman, Eva Nina Lampič',
+        'Stand in for Mel Krodman: Bence Mezei, Uroš Kaurin, Barbara Poček',
+        'Video documentation and space: Dani Modrej',
+        'Add below as many as you need',
+      ],
+    },
     {
       id: 14,
       label: `AMOUR_TESTAN`,
