@@ -1,6 +1,6 @@
 .navbar {
   background-color: transparent;
-  border-bottom: 2px solid var(--primary-color);
+  border-bottom: 2px solid #4a90e2;
   position: relative;
   z-index: 10;
 }
@@ -12,7 +12,7 @@
 .name {
   padding: 5px;
   border: 1px solid var(--text-color);
-  background-color: var(--bg-color);
+  background-color: #29c7d7;
 }
 
 .navbar-toggler {
@@ -43,7 +43,7 @@ a:hover {
 
 .dropdown-menu {
   border: 2px solid var(--primary-color);
-  background-color: var(--bg-color);
+  background-color: #29c7d7;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -62,6 +62,7 @@ a:hover {
 :host-context(.contact-page) {
   .navbar {
     background-color: transparent;
+    border-bottom: 2px solid #4a90e2;
   }
 
   .nav-link,
@@ -72,7 +73,7 @@ a:hover {
 
   .name {
     border-color: #fff;
-    background-color: transparent;
+    background-color: #29c7d7;
   }
 
   .line {
@@ -80,7 +81,7 @@ a:hover {
   }
 
   .dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #29c7d7;
     border-color: #fff;
 
     .dropdown-item {
@@ -100,7 +101,7 @@ a:hover {
       }
 
       .dropdown-menu {
-        background-color: transparent;
+        background-color: #29c7d7;
         border-color: #fff;
 
         .dropdown-item {

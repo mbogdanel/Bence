@@ -9,6 +9,7 @@
   background-position: center;
   color: #fff;
   z-index: 0;
+  padding-top: 80px; /* Account for navbar height */
 }
 
 .contact-content {
@@ -17,10 +18,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   top: 20%;
   left: 10%;
 }
+
 .contact-overlay {
   position: absolute;
   top: 0;
@@ -31,14 +32,42 @@
   z-index: 1;
 }
 
-.contact-links {
-  a {
-    color: #fff;
-    text-decoration: none;
-    transition: opacity 0.2s;
+.contact-box {
+  padding: 20px 30px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
 
-    &:hover {
-      opacity: 0.8;
+.contact-text {
+  text-align: left;
+  font-family: "PT Mono", monospace;
+
+  div:first-child {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  div:last-child {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-content {
+    top: 25%;
+    left: 5%;
+    right: 5%;
+  }
+
+  .contact-box {
+    padding: 15px 20px;
+  }
+
+  .contact-text {
+    div:first-child,
+    div:last-child {
+      font-size: 14px;
     }
   }
 }

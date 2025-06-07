@@ -84,6 +84,12 @@ nav {
   border-radius: none !important;
 }
 
+.photo-credit {
+  font-size: 12px;
+  color: #666;
+  margin-top: -15px;
+}
+
 @media screen and (max-width: 768px) {
   .home-container {
     width: 90%;
@@ -106,6 +112,11 @@ nav {
 
   .image-fluid {
     margin-bottom: 20px;
+  }
+
+  .photo-credit {
+    text-align: center !important;
+    margin-top: -10px;
   }
 }
 
